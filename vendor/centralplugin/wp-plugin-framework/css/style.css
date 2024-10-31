@@ -1,0 +1,150 @@
+div.wpf-controller .wpf-table-placeholder,
+div.wpf-controller table.wpf-table-placeholder tbody tr,
+div.wpf-controller table.wpf-table-placeholder tr,
+div.wpf-controller .wpf-table-placeholder-input,
+div.wpf-controller td.wpf-table-placeholder-input fieldset{
+    margin: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+
+div.wpf-controller table.wpf-table-placeholder{
+    width: 100%;
+}
+
+div.wpf-controller td.wpf-table-placeholder-input{
+    padding: 0 0 15px 0 !important;
+}
+
+div.wpf-controller input.regular-text{
+    margin: 0;
+    width: 85%;
+    border: 1px solid #aaa;
+    padding:4px !important;
+    background: rgb(250, 255, 189);
+    color: #444;
+    font-family: Helvetica, Arial, sans-serif;
+    height:auto;
+    line-height: normal;
+    font-size: 1.4em;
+}
+
+div.wpf-controller input.wpf-input-error{
+    border: 1px solid red;
+}
+
+div.wpf-controller label.wpf-label{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: #444;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.wpf-controller button{
+    background-color: #4D90FE;
+    background-image: none;
+    border: 1px solid #3079ED;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor:pointer;
+    padding: 5px 30px 5px 30px;
+    margin:5px 0;
+    width:auto;
+    height:2.3em;
+    line-height: 0;
+    letter-spacing: 1px;
+}
+
+div.wppmvcf-status-bar{
+    margin-top:10px;
+}
+
+div.wpf-controller div.wppmvcf-status-bar-info{
+    margin: 15px 0;
+}
+
+div.wpf-controller div.wppmvcf-status-bar-success{
+    color: green;
+    margin: 15px 0;
+}
+
+div.wpf-controller div.wppmvcf-status-bar-error{
+    color: red;
+    margin: 15px 0;
+}
+
+div.wpf-controller input.wpf-checkbox-input{
+    margin: 1px;
+    vertical-align: middle;
+    box-sizing: inherit;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    line-height: 1.2em;
+}
+
+div.wpf-controller input[type='checkbox'].wpf-input-error {
+    outline: 1px solid red;
+}
+
+div.wpf-admin-area-collapsible {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+div.wpf-admin-area-cell {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div.wpf-admin-area-col2 > div.wpf-admin-area-cell {
+    width: 50%;
+}
+div.wpf-admin-area-col3 > div.wpf-admin-area-cell {
+    width: 33.33%;
+}
+div.wpf-admin-area-col4 > div.wpf-admin-area-cell {
+    width: 25%;
+}
+div.wpf-admin-area-col5 > div.wpf-admin-area-cell {
+    width: 20%;
+}
+div.wpf-admin-area-col6 > div.wpf-admin-area-cell {
+    width: 16.6%;
+}
+
+@media all and (max-width: 1100px) {
+    div.wpf-admin-area-collapsible > div.wpf-admin-area-cell {
+        width: 100%;
+    }
+}
+
+div.wpf-color-picker{
+    display: inline-block;
+}
+
+div.wpf-color-picker div.wpf-color-show{
+    display: inline-block;
+    height: auto;
+    width: 30px;
+    border: 1px solid #cccccc;
+    margin: 0;
+    padding: 0;
+}
+
+div.wpf-color-picker input{
+    display: inline-block;
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "centralplugin/wp-activerecord",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/centralplugin/wp-activerecord.git",
+            "reference": "10d57cc54eff5cfb5440777c6f4ed30c9519ba61"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/centralplugin/wp-activerecord/zipball/10d57cc54eff5cfb5440777c6f4ed30c9519ba61",
+            "reference": "10d57cc54eff5cfb5440777c6f4ed30c9519ba61",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-12-19T19:39:49+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "WP_ActiveRecord": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CentralPlugin",
+                "email": "post@centralplugin.com",
+                "homepage": "https://www.centralplugin.com"
+            }
+        ],
+        "description": "Convenient and light-weight database access for WordPress plugins.",
+        "homepage": "https://github.com/centralplugin/wp-activerecord",
+        "keywords": [
+            "active record",
+            "database",
+            "framework",
+            "plugin",
+            "wordpress"
+        ],
+        "support": {
+            "source": "https://github.com/centralplugin/wp-activerecord/tree/master",
+            "issues": "https://github.com/centralplugin/wp-activerecord/issues"
+        }
+    },
+    {
+        "name": "centralplugin/wp-plugin-framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/centralplugin/wp-plugin-framework.git",
+            "reference": "1fa6ca205ec84e4657239da2bd224f4509c39302"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/centralplugin/wp-plugin-framework/zipball/1fa6ca205ec84e4657239da2bd224f4509c39302",
+            "reference": "1fa6ca205ec84e4657239da2bd224f4509c39302",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-12-20T21:27:13+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "WP_PluginFramework": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CentralPlugin",
+                "email": "post@centralplugin.com",
+                "homepage": "https://www.centralplugin.com"
+            }
+        ],
+        "description": "Convenient and light-weight WordPress plugin MVC framework.",
+        "homepage": "https://github.com/centralplugin/wp-plugin-framework",
+        "keywords": [
+            "framework",
+            "mvc",
+            "plugin",
+            "wordpress"
+        ]
+    }
+]

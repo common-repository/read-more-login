@@ -1,0 +1,1725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Read More Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-03 20:47+0000\n"
+"PO-Revision-Date: 2021-07-29 12:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: Norsk bokmål\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8"
+
+#. %1$s: The text Warning! %2$s: shortcode.
+#: src/AdminPages.php:221
+#, php-format
+msgid ""
+"%1$s Do not use the shortcode %2$s inside tables or other html elements."
+msgstr ""
+"%1$s Ikke bruk kortkoden %2$s inni tabeller eller andre html elementer."
+
+#: views/WizardView.php:232
+msgid ""
+"A basic set of configuration should now be completed. You can now start "
+"create some login forms in your posts and pages."
+msgstr ""
+"Et grunnleggende sett med konfigurasjon skal nå være fullført. Du kan nå "
+"begynne å lage noen login skjemaer i dine innlegg og sider."
+
+#. Text sent in admin notification e-mail, message body. %s: Name of site.
+#: models/SettingsEmailOptions.php:164
+#, php-format
+msgid "A new member has registered at %s."
+msgstr "Nytt medlem er registrert på %s."
+
+#. Admin tab menu. Abbreviation for Search Engine Optimization. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:51
+msgid "Access"
+msgstr "Adgang"
+
+#. Admin panel headline
+#: views/AdminAccessView.php:44
+msgid "Access settings"
+msgstr "Adgangsinnstillinger"
+
+#. This is label to a link for adding new pages.
+#: views/WizardView.php:199
+msgid "add new page"
+msgstr "legg til ny side"
+
+#: src/AdminPages.php:216
+msgid "Add shortcodes to your posts and pages"
+msgstr "Legg til kortkoder på dine innlegg og sider"
+
+#: views/AdminEmailView.php:134
+msgid "Administrator notification"
+msgstr "Administrator varsling"
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:55
+msgid "Advanced"
+msgstr "Avansert"
+
+#. Admin panel headline
+#: views/AdminAdvancedView.php:56
+msgid "Advanced settings"
+msgstr "Avanserte innstillinger"
+
+#: views/AdminFormView.php:123
+msgid ""
+"After the registration e-mail has been sent, this form ask the visitor to "
+"check his e-mail. The visitor needs to confirm his e-mail address by "
+"clicking a link in the e-mail to complete the registration. This link will "
+"also send the user right back to the same page and auto-login to read the "
+"remaining article."
+msgstr ""
+"Etter at registrerings e-post er sendt, vil dette skjemaet be besøkende om å "
+"sjekke e-posten. Den besøkende må bekrefte sin e-postadresse ved å følge en "
+"link i e-posten for å fullføre registreringen. Denne linken vil også sende "
+"den nye brukeren rett tilbake til artikkelen og automatisk logge in for å "
+"lese resten av artikkelen."
+
+#: views/AdminLinkingView.php:114
+msgid "After user has logged out, he will be redirected to this page."
+msgstr ""
+"Etter at brukeren har logget seg ut, vil han bli videresendt til denne siden."
+
+#: views/WizardView.php:235
+msgid ""
+"After you have put in a shortcode, you need to log out to see it in action."
+msgstr ""
+"Etter at du har satt i en kortkode, må du logge ut for å se den i aksjon."
+
+#. %s: E-mail address.
+#: models/SettingsFormOptions.php:135
+#, php-format
+msgid "An e-mail has been sent to %s."
+msgstr "En e-post har blitt sendt til %s."
+
+#. %s: E-mail address.
+#: controllers/RegistrationController.php:264
+#, php-format
+msgid "An e-mail has been sent to %s. Please check your e-mail."
+msgstr "En e-post er sendt til %s. Sjekk din e-post."
+
+#: views/AdminStyleView.php:109
+msgid "Animation effects"
+msgstr "Animasjonseffekter"
+
+#. Button label.
+#: src/AdminPages.php:146
+msgid "Apply"
+msgstr "Bruk"
+
+#. Author of the plugin
+msgid "Arild Hegvik"
+msgstr "Arild Hegvik"
+
+#: views/AdminFormView.php:165
+msgid "Ask for first name when new users are registering."
+msgstr "Be om fornavn når nye brukere registrerer seg."
+
+#: views/AdminFormView.php:163
+msgid "Ask for first name:"
+msgstr "Be om fornavn:"
+
+#: views/AdminFormView.php:171
+msgid "Ask for last name when new users are registering."
+msgstr "Be om etternavn når nye brukere registrerer seg."
+
+#: views/AdminFormView.php:169
+msgid "Ask for last name:"
+msgstr "Be om etternavn:"
+
+#: views/AdminStyleView.php:122
+msgid "Background color:"
+msgstr "Bakgrunnsfarge:"
+
+#: views/AdminAdvancedView.php:158
+msgid "Beta versions:"
+msgstr "Betaversjoner:"
+
+#: views/AdminStyleView.php:142
+msgid "Button border color:"
+msgstr "Farge på trykknapps ramme:"
+
+#: views/AdminStyleView.php:136
+msgid "Button color:"
+msgstr "Farge på trykknapp:"
+
+#: views/AdminStyleView.php:139
+msgid "Button text color:"
+msgstr "Tekstfarge trykknappen:"
+
+#. Link label.
+#: views/ProfileView.php:69
+msgid "Change password"
+msgstr "Endre passord"
+
+#: views/AdminLinkingView.php:103
+msgid "Change/reset password page:"
+msgstr "Side for å endre/resette passord:"
+
+#. Headline
+#: views/AdminFormPreView.php:138 views/AdminFormView.php:122
+msgid "Check e-mail form"
+msgstr "Sjekk e-post skjema"
+
+#: models/SettingsFormOptions.php:132
+msgid "Check your e-mail"
+msgstr "Sjekk din e-post"
+
+#. Text sent in registration e-mail, message body.
+#: models/SettingsEmailOptions.php:147
+msgid "Click or copy the link into your web browser:"
+msgstr "Klikk eller kopier linken til din nettleser:"
+
+#. Button label.
+#: views/WizardView.php:68
+msgid "Close"
+msgstr "Lukk"
+
+#. Headline for registration form.
+#: views/RegisterUserDataView.php:57
+msgid "Complete your registration"
+msgstr "Fullfør registreringen"
+
+#: src/AdminPages.php:460 src/AdminPages.php:472
+msgid "Completed"
+msgstr "Fullført"
+
+#: src/AdminPages.php:251
+msgid "Completed counter"
+msgstr "Antall fullførte"
+
+#: src/AdminPages.php:149
+msgid "Configuration Wizard"
+msgstr "Konfigurasjonsveiviser"
+
+#. %1$d: Step number for configuration wizard. %2$d: Total number of wizard steps.
+#: views/WizardView.php:263
+#, php-format
+msgid "Configuration Wizard - Step %1$d of %2$d"
+msgstr "Konfigurasjonsveiviser - Steg %1$d av %2$d"
+
+#: views/PasswordChangeView.php:52 views/PasswordRecoveryChangeView.php:53
+msgid "Confirm password:"
+msgstr "Bekreft passord:"
+
+#. The text is the hidden part of article that users must log in to read, and how this will load into the page.
+#: views/AdminStyleView.php:157
+msgid "Content loading:"
+msgstr "Innlasting av innhold:"
+
+#: views/AdminAdvancedView.php:95
+msgid "Debug logging"
+msgstr "Feilsøkingslogging"
+
+#: views/AdminPanelView.php:86
+msgid ""
+"Depending of what is available the variable will put in the user's first "
+"name and/or the last name. If no name has been given, variable will write "
+"the user's username."
+msgstr ""
+"Avhengig av hva som er tilgjengelig vil variabelen sette inn brukerens "
+"fornavn og/eller etternavn. Hvis navn ikke er gitt, vil variabelen skrive "
+"brukerens brukernavn."
+
+#: views/AdminPanelView.php:113
+msgid ""
+"Depending on type of e-mail this variable will put in link to read the "
+"remaining article or to complete the registration or the password change "
+"page."
+msgstr ""
+"Avhengig av type e-post vil denne variabel sette inn link til å lese resten "
+"av artikkelen, link til å fullføre registreringen eller link til reset "
+"passord siden."
+
+#: views/AdminAdvancedView.php:166
+#| msgid "Development version:"
+msgid "Development versions:"
+msgstr "Utviklingsversjoner:"
+
+#: views/AdminAdvancedView.php:160
+msgid "Download and install beta test versions."
+msgstr "Last ned og installer betaversjoner."
+
+#: views/AdminAdvancedView.php:168
+msgid "Download and install latest development version."
+msgstr "Last ned og installer siste utviklerversjon."
+
+#. %s: Path and filename to log file.
+#: views/AdminAdvancedView.php:105
+msgid ""
+"Download and install licensed premium editions. The download will be "
+"available in the list of installed plugins."
+msgstr ""
+"Last ned og installer lisensiert premium version. Versjonen vil bli "
+"tilgjengelig i listen over installerte utvidelser."
+
+#: views/AdminAdvancedView.php:154
+msgid "Download and install release candidates."
+msgstr "Last ned og installert utgivelseskandidater."
+
+#. %s: Path and filename to log file.
+#: views/AdminAdvancedView.php:116
+msgid ""
+"Download and update of beta and release candidate versions ahead of public "
+"release. These versions are not recommended for production servers, but for "
+"testing ahead of final release. The download will be available in the list "
+"of installed plugins."
+msgstr ""
+"Last ned og oppdater beta- og utgivelseskandidatversjoner i forkant av "
+"offentliggjøring. Disse versjonene anbefales ikke for produksjonsservere, "
+"men for testing i forkant av endelig utgivelse. Nedlastingen vil være "
+"tilgjengelig i listen over installerte plugins."
+
+#: views/AdminAdvancedView.php:103
+msgid "Download licensed editions"
+msgstr "Last ned lisensierte version"
+
+#: views/AdminAdvancedView.php:114
+msgid "Download pre-release versions"
+msgstr "Last ned forhåndsversjoner"
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:47 src/AdminPages.php:350
+#: src/AdminPages.php:399 views/ProfileView.php:61
+msgid "E-mail"
+msgstr "E-post"
+
+#: controllers/MembershipController.php:534
+msgid "E-mail address has wrong format. Please write a correct e-mail address."
+msgstr ""
+"E-postadresse har feil format. Vennligst skriv en korrekt e-postadresse."
+
+#: controllers/ReadMoreLoginController.php:680
+msgid ""
+"E-mail address registration error. Please register your e-mail address again."
+msgstr ""
+"Feil ved registrering av e-postadresse. Registrer e-postadressen din på nytt."
+
+#: views/PasswordRecoveryView.php:53 views/ReadMoreRegistrationView.php:73
+#: views/RegistrationView.php:54
+msgid "E-mail address:"
+msgstr "E-postadresse:"
+
+#: views/AdminSecurityView.php:57
+msgid "E-mail as username:"
+msgstr "E-post som brukernavn:"
+
+#: src/AdminPages.php:452 src/AdminPages.php:468
+msgid "E-mail confirmed"
+msgstr "E-post bekreftet"
+
+#: src/AdminPages.php:448 src/AdminPages.php:464
+msgid "E-mail sent"
+msgstr "E-post sendt"
+
+#. %s: E-mail address.
+#: controllers/PasswordRecoveryController.php:174
+#, php-format
+msgid "E-mail sent to %s with username and password reset link."
+msgstr "E-post sendt til %s med brukernavn og link for å resette passord."
+
+#. Admin panel headline
+#: views/AdminEmailView.php:74
+msgid "E-mail setup"
+msgstr "E-post oppsett"
+
+#: views/AdminAdvancedView.php:128
+msgid "Enable debug log:"
+msgstr "Aktiver feilsøkingslogg:"
+
+#. %s: Path and filename to log file.
+#: views/AdminAdvancedView.php:97
+#, php-format
+msgid ""
+"Enable logging of debug information from this plugin. In case you have "
+"problem with the plugin, this can give helpful information to solve it. Log "
+"will be saved to the file %s."
+msgstr ""
+"Aktiver logging av feilsøkingsinformasjon fra denne utvidelsen. I tilfelle "
+"du har problem med utvidelsen, kan dette gi nyttig informasjon for å løse "
+"problemet. Loggen vil bli lagret i filen %s."
+
+#: views/AdminEmailView.php:196
+msgid "Enable notification:"
+msgstr "Aktiver varsling:"
+
+#: views/AdminFormView.php:139
+msgid "Enable registration in form:"
+msgstr "Slå på registrering i skjema:"
+
+#: views/AdminStyleView.php:113
+msgid "Enable text fading:"
+msgstr "Aktiver tekst fading:"
+
+#: models/SettingsFormOptions.php:130 views/RegistrationView.php:51
+msgid "Enter your e-mail address to register."
+msgstr "Skriv inn e-postadressen din for å registrere deg."
+
+#: views/PasswordRecoveryView.php:50
+msgid ""
+"Enter your e-mail and we will send your username and password reset link."
+msgstr ""
+"Skriv inn din e-post og vi vil sende ditt brukernavn og passord reset link."
+
+#: controllers/MembershipController.php:483
+msgid ""
+"Entered passwords does not match. You must enter same password in both "
+"inputs."
+msgstr ""
+"Angitte passord samsvarer ikke. Du må angi samme passord i begge inn feltene."
+
+#: controllers/ReadMoreLoginController.php:687
+msgid "Error creating username. Please select another username."
+msgstr "Feil under oppretting av brukernavn. Velg et annet brukernavn."
+
+#: controllers/RegistrationController.php:189
+msgid ""
+"Error registering. Please retry or contact site admin if problem persists."
+msgstr ""
+"Feil ved registrering. Prøv på nytt eller kontakt nettstedets administrator "
+"hvis problemet vedvarer."
+
+#: controllers/PasswordChangeController.php:87
+msgid "Error saving password. Please retry with another password."
+msgstr "Feil under lagring av passord. Prøv på nytt med et annet passord."
+
+#. %s: E-mail address.
+#: controllers/MembershipController.php:751
+#: controllers/PasswordRecoveryController.php:185
+#, php-format
+msgid ""
+"Error sending e-mail to %s. Retry later or contact site admin if problem "
+"persists."
+msgstr ""
+"Feil under sending av e-post til %s. Prøv på nytt senere eller kontakt "
+"nettstedets administrator hvis problemet vedvarer."
+
+#: controllers/ReadMoreLoginController.php:625
+msgid "Error. Can not log in."
+msgstr "Feil. Kan ikke logge inn."
+
+#: controllers/MembershipController.php:403
+msgid "Error. Entered username has invalid characters or is wrong."
+msgstr "Feil. Angitt brukernavn har ugyldige tegn eller er feil."
+
+#: controllers/MembershipController.php:598
+msgid "Error. Entered username has invalid characters."
+msgstr "Feil. Angitt brukernavn har ugyldige tegn."
+
+#: controllers/MembershipController.php:516
+msgid ""
+"Error. Invalid e-mail address format. Please enter a correct e-mail address."
+msgstr ""
+"Feil. Ugyldig format for e-postadresse. Skriv inn riktig e-postadresse."
+
+#. %s: Username.
+#: controllers/ReadMoreLoginController.php:663
+#, php-format
+msgid "Error. Invalid username %s. Please select another username."
+msgstr "Feil. Ugyldig brukernavn %s. Velg et annet brukernavn."
+
+#: controllers/MembershipController.php:758
+msgid "Error. Maximum number of e-mail sent."
+msgstr "Feil. Maksimalt antall e-post er sendt."
+
+#: controllers/MembershipController.php:510
+msgid ""
+"Error. This e-mail has no user account. Please enter the e-mail address used "
+"during registration."
+msgstr ""
+"Feil. Denne e-posten har ingen brukerkonto. Skriv inn e-postadressen som ble "
+"brukt under registreringen."
+
+#: controllers/MembershipController.php:585
+msgid ""
+"Error. This username has already been taken. Please select another username."
+msgstr "Feil. Dette brukernavnet er allerede tatt. Velg et annet brukernavn."
+
+#: controllers/LoginController.php:113
+msgid "Error. Wrong username or password."
+msgstr "Feil. Feil brukernavn eller passord."
+
+#: src/AdminPages.php:476 src/AdminPages.php:480
+msgid "Expired"
+msgstr "Utløpt"
+
+#. Animation effect for how text is loaded into a page.
+#: views/AdminStyleView.php:162
+msgid "Fade in"
+msgstr "Fade inn"
+
+#. Animation effect for how new forms are loaded into a page.
+#: views/AdminStyleView.php:150
+msgid "Fade out and in"
+msgstr "Fade ut og inn"
+
+#: views/AdminStyleView.php:118
+msgid "Fading height:"
+msgstr "Fade høyde:"
+
+#: views/ProfileView.php:59
+msgid "First name"
+msgstr "Fornavn"
+
+#: controllers/MembershipController.php:641
+msgid "First name is required field."
+msgstr "Fornavn er påkrevd felt."
+
+#: views/AdminFormView.php:175
+msgid "First name is required:"
+msgstr "Fornavn er påkrevd:"
+
+#. A person's first name.
+#: views/ReadMoreRegistrationView.php:78 views/RegisterUserDataView.php:72
+msgid "First name:"
+msgstr "Fornavn:"
+
+#. Text sent in registration e-mail, message body. %s: Name of site.
+#: models/SettingsEmailOptions.php:145
+#, php-format
+msgid "Follow this link to complete your registration at %s."
+msgstr "Følg denne linken for å fullføre registreringen på %s."
+
+#: views/AdminSecurityView.php:59
+msgid "Forbid users to register using their e-mail address as username."
+msgstr ""
+"Ikke tillatt brukere å registrere seg med e-postadresse som brukernavn."
+
+#. Link label.
+#: views/LoginView.php:76 views/ReadMoreLoginView.php:93
+#: views/RegistrationView.php:72
+msgid "Forgotten username or password?"
+msgstr "Glemt brukernavn eller passord?"
+
+#: views/AdminStyleView.php:103
+msgid "Form colors and appearance"
+msgstr "Skjemafarger og utseende"
+
+#: views/AdminStyleView.php:145
+msgid "Form rotations:"
+msgstr "Skjemarotering:"
+
+#. Admin panel headline
+#: views/AdminFormView.php:73
+msgid "Form setup"
+msgstr "Skjemaoppsett"
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:43
+msgid "Forms"
+msgstr "Skjema"
+
+#: views/AdminStyleView.php:126
+msgid "Frame background color:"
+msgstr "Bakgrunnsfarge for skjema:"
+
+#: views/AdminStyleView.php:133
+msgid "Frame border color:"
+msgstr "Farge på skjemaramme:"
+
+#: views/AdminStyleView.php:129
+msgid "Frame border thickness:"
+msgstr "Tykkelse på rammekant:"
+
+#. E-mail from/reply address.
+#: views/AdminEmailView.php:149 views/AdminEmailView.php:171
+#: views/AdminEmailView.php:184 views/AdminEmailView.php:203
+msgid "From/reply:"
+msgstr "Fra/svar:"
+
+#: views/AdminFormView.php:127 views/AdminFormView.php:157
+#: views/AdminFormView.php:193
+msgid "Header text:"
+msgstr "Overskrift:"
+
+#: views/AdminStyleView.php:119
+msgid ""
+"Height of fading area. Number unit is \"em\". Recommended value between 5 - "
+"20."
+msgstr ""
+"Høyde på fade området. Tallenheten er \"em\". Anbefalt verdi mellom 5-20."
+
+#. Text sent in registration e-mail, message body. %s: User's name.
+#: models/SettingsEmailOptions.php:134
+#, php-format
+msgid "Hello %s!"
+msgstr "Hallo %s!"
+
+#: src/AdminPages.php:76 src/AdminPages.php:77
+msgid "Help"
+msgstr "Hjelp"
+
+#. URI of the plugin
+msgid "https://www.readmorelogin.com"
+msgstr "https://www.readmorelogin.com"
+
+#: views/AdminSecurityView.php:61
+msgid ""
+"If a visitor tries to register using an e-mail address as username, he will "
+"be asked to correct it by enter a non-email."
+msgstr ""
+"Hvis en besøkende prøver å registrere seg ved hjelp av en e-postadresse som "
+"brukernavn, vil han bli bedt om å korrigere den ved å skrive en ikke-e-post."
+
+#: views/WizardView.php:147
+msgid ""
+"If you have a colored background behind the article, you must specify this "
+"color in the Background color input field below."
+msgstr ""
+"Hvis du har en farget bakgrunn bak artikkelen, må du angi denne fargen i "
+"inndatafeltet Bakgrunnsfarge nedenfor."
+
+#: views/AdminAdvancedView.php:125
+msgid ""
+"If you want to uninstall this plugin and reinstall it later, this will save "
+"the settings, status and statistics data. Registered users will not be "
+"affected by this setting, that data is preserved by WordPress's own database "
+"tables."
+msgstr ""
+"Hvis du vil avinstallere denne utvidelsen og gjeninstallerer den senere, vil "
+"dette bevare innstillinger, status og statistikkdata. Registrerte brukere "
+"vil ikke bli berørt av denne innstillingen, disse data er lagret i "
+"WordPress' egne databasetabeller."
+
+#: controllers/PasswordRecoveryController.php:177
+msgid ""
+"In case you don't see the e-mail, also check your e-mail application's spam "
+"folder."
+msgstr ""
+"I tilfelle du ikke ser e-posten, sjekke også e-postprogrammets spamfolder."
+
+#. %s: Shortcode.
+#: src/AdminPages.php:218
+#, php-format
+msgid ""
+"In the posts and pages you want login form, put the shortcode %s in the text "
+"where you want the login form to appear."
+msgstr ""
+"På innleggene og sidene som du vil ha innloggingsskjema, sett inn kortkoden "
+"%s i teksten der du vil at innloggingsskjemaet skal vises."
+
+#: src/AdminPages.php:212
+msgid "Introduction"
+msgstr "Introduksjon"
+
+#: views/AdminAdvancedView.php:123
+msgid "Keep the plugin's settings and data after uninstall."
+msgstr "Bevar utvidelsens innstillinger og data etter avinstallering."
+
+#: views/ProfileView.php:60
+msgid "Last name"
+msgstr "Etternavn"
+
+#: controllers/MembershipController.php:658
+msgid "Last name is required field."
+msgstr "Etternavn er påkrevd felt."
+
+#: views/AdminFormView.php:181
+msgid "Last name is required:"
+msgstr "Etternavn er påkrevd:"
+
+#. A person's last name.
+#: views/ReadMoreRegistrationView.php:84 views/RegisterUserDataView.php:78
+msgid "Last name:"
+msgstr "Etternavn:"
+
+#: views/AdminAdvancedView.php:144
+msgid ""
+"License key to be provided by plugin developer. Go to www.readmorelogin.com."
+msgstr ""
+"Lisensnøkkel kan mottas fra utvikleren for utvidelsen. Gå til www."
+"readmorelogin.com."
+
+#: views/AdminAdvancedView.php:143
+msgid "License key:"
+msgstr "Lisensnøkkel:"
+
+#. Admin panel headline
+#: views/AdminLinkingView.php:62
+msgid "Links for user handling"
+msgstr "Linker til bruker håndtering"
+
+#: src/AdminPages.php:335
+msgid "Listings in the tables will be cleared after 30 days"
+msgstr "Oppføringer i tabellene vil bli slettet etter 30 dager"
+
+#: src/AdminPages.php:214
+#, php-format
+msgid "Live demo and list of features: %s"
+msgstr "Live demo og oversikt over funksjoner: %s"
+
+#: controllers/ReadMoreLoginController.php:224
+#: controllers/ReadMoreLoginController.php:243
+msgid "Loading text..."
+msgstr "Laster inn tekst..."
+
+#: views/AdminAdvancedView.php:135
+msgid "Log extra debug info:"
+msgstr "Logg ekstra feilsøkingsinformasjon:"
+
+#. Button label.
+#: views/LoginView.php:66 views/PasswordRecoveryView.php:60
+#: views/ReadMoreLoginView.php:71 views/RegistrationView.php:70
+msgid "Log in"
+msgstr "Logg inn"
+
+#. Button label.
+#: views/LogoutView.php:60
+msgid "Log out"
+msgstr "Logg ut"
+
+#. Link text for compact widget. Translation should be short.
+#: src/CompactWidget.php:68
+msgid "Login"
+msgstr "Logg inn"
+
+#. Headline
+#: views/AdminFormPreView.php:136 views/AdminFormView.php:105
+msgid "Login form"
+msgstr "Logg inn skjema"
+
+#: views/AdminLinkingView.php:89
+msgid "Login page:"
+msgstr "Innloggingsside:"
+
+#. Link text for compact widget. Translation should be short.
+#: src/CompactWidget.php:72
+msgid "Logout"
+msgstr "Logg ut"
+
+#: views/AdminLinkingView.php:113
+msgid "Logout redirect link:"
+msgstr "Utlogging videresendingslink:"
+
+#: views/AdminFormView.php:177
+msgid ""
+"Make first name required field. User can not complete registration without "
+"filling it in."
+msgstr ""
+"Gjør fornavn påkrevd felt. Bruker kan ikke fullføre registreringen uten å "
+"fylle den ut."
+
+#: views/AdminFormView.php:183
+msgid ""
+"Make last name required field. User can not complete registration without "
+"filling it in."
+msgstr ""
+"Gjør etternavn påkrevd felt. Bruker kan ikke fullføre registreringen uten å "
+"fylle den ut."
+
+#. %s: Link to add new pages in the dashboard.
+#: views/WizardView.php:201
+#, php-format
+msgid ""
+"Make links to pages for user handling like login, registering, profile and "
+"password recovery pages. You must manually created these pages by %s."
+msgstr ""
+"Lag linker til sider for bruker håndtering som logg inn, registrering, "
+"profil og password reset. Du må manuelt opprette disse sidene på %s."
+
+#: views/AdminFormView.php:130 views/AdminFormView.php:160
+#: views/AdminFormView.php:196
+msgid "Message text:"
+msgstr "Meldingstekst:"
+
+#. E-mail message body.
+#: views/AdminEmailView.php:158 views/AdminEmailView.php:180
+#: views/AdminEmailView.php:193 views/AdminEmailView.php:216
+msgid "Message:"
+msgstr "Melding:"
+
+#: views/PasswordChangeView.php:51 views/PasswordRecoveryChangeView.php:52
+msgid "New password:"
+msgstr "Nytt passord:"
+
+#. Button label.
+#: views/WizardView.php:70
+msgid "Next"
+msgstr "Neste"
+
+#: views/AdminStyleView.php:148 views/AdminStyleView.php:160
+msgid "No animation effects"
+msgstr "Ingen animasjonseffekter"
+
+#: src/AdminPages.php:433
+msgid "No registrations."
+msgstr "Ingen registreringer."
+
+#. %s: E-mail address.
+#: controllers/PasswordRecoveryController.php:279
+#, php-format
+msgid "No user with e-mail address %s."
+msgstr "Ingen bruker med e-postadresse %s."
+
+#: views/AdminAdvancedView.php:139
+msgid ""
+"Note! Do not the enable extra debug logging continuously as the log will "
+"grow very large over time."
+msgstr ""
+"Merk! Ikke aktiver ekstra feilsøkingslogging kontinuerlig ettersom loggen "
+"vil bli svært stor over tid."
+
+#. %s is <p></p>
+#: src/AdminPages.php:228
+#, php-format
+msgid "Note! On newer WordPress versions, the paragraph tag %s will be hidden."
+msgstr ""
+"Merk! På nyere WordPress versjoner er HTML elementene %s for å lage avsnitt "
+"skult."
+
+#. Text sent in admin notification e-mail, subject line.
+#: models/SettingsEmailOptions.php:162
+msgid "Notification of new user registration"
+msgstr "Varsling om ny brukerregistrering"
+
+#. %s will show the shortcode.
+#: views/AdminLinkingView.php:106
+#, php-format
+msgid ""
+"On this page users can change their password. If not logged in, the user can "
+"ask for a password reset link, which will be sent by e-mail. You must put "
+"the shortcode %s on this page."
+msgstr ""
+"På denne siden kan brukere endre sine passord. Dersom ikke innlogget, kan "
+"brukeren be om passord reset link, som vil bli sendt på e-post. Du må sette "
+"kortkoden %s på denne siden."
+
+#. %s will show the shortcode.
+#: views/AdminLinkingView.php:92
+#, php-format
+msgid ""
+"On this page users can log in and out. You must put the shortcode %s on this "
+"page."
+msgstr ""
+"På denne siden kan brukere logge seg inn og ut. Du må sette kortkoden %s på "
+"denne siden."
+
+#. %s will show the shortcode.
+#: views/AdminLinkingView.php:99
+#, php-format
+msgid ""
+"On this page users can update their personal information. You must put the "
+"shortcode %s on this page."
+msgstr ""
+"På denne siden kan brukerne oppdatere sine personlige opplysninger. Du må "
+"sette kortkoden %s på denne siden."
+
+#. %s will show the shortcode.
+#: views/AdminLinkingView.php:85
+#, php-format
+msgid ""
+"On this page visitors can register as new users. You must put the shortcode "
+"%s on this page."
+msgstr ""
+"På denne siden kan besøkende registrere seg som nye brukere. Du må sette "
+"kortkoden %s på denne siden."
+
+#: views/WizardView.php:143
+msgid ""
+"On this page you can adjust the style, colors and configure animation "
+"effects for the forms."
+msgstr ""
+"På denne siden kan du justere stilen, fargene og konfigurere "
+"animasjonseffekter for skjemaene."
+
+#: views/WizardView.php:121
+msgid ""
+"On this page you can adjust the text in the forms and select what "
+"information will be required from new users during registrations. The "
+"preview will show you how it will look like in real."
+msgstr ""
+"På denne siden kan du justere teksten i skjemaene og velge hvilken "
+"informasjon som skal kreves ved brukerregistrering. Forhåndsvisningen vil "
+"vise deg hvordan det vil se ut i virkeligheten."
+
+#: views/AdminLinkingView.php:111
+msgid ""
+"On this page you can write your terms and conditions, which new users must "
+"accept to register."
+msgstr ""
+"På denne siden kan du skrive dine vilkår og betingelser, som nye brukere må "
+"godta for å registrere seg."
+
+#: src/AdminPages.php:246 src/AdminPages.php:351 src/AdminPages.php:400
+msgid "Page ID"
+msgstr "Side ID"
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:49
+msgid "Page linking"
+msgstr "Sidelinking"
+
+#: src/AdminPages.php:247 src/AdminPages.php:352 src/AdminPages.php:401
+msgid "Page title"
+msgstr "Sidetittel"
+
+#: src/AdminPages.php:248
+msgid "Page view counter"
+msgstr "Antall sidevisninger"
+
+#: controllers/PasswordChangeController.php:76
+msgid "Password has been changed."
+msgstr "Passordet er endret."
+
+#: controllers/LoginController.php:195
+#: controllers/PasswordRecoveryController.php:225
+msgid "Password has been changed. You can now log in."
+msgstr "Passordet er endret. Du kan nå logge inn."
+
+#: src/AdminPages.php:390
+msgid "Password reset links gets expired after 1 hour."
+msgstr "Passord reset linker utløper etter 1 time."
+
+#: src/AdminPages.php:389
+msgid "Password reset status"
+msgstr "Status for passord reset"
+
+#: views/LoginView.php:61 views/ReadMoreLoginView.php:68
+#: views/RegisterUserDataView.php:66
+msgid "Password:"
+msgstr "Passord:"
+
+#. %s: Title of article to read.
+#: models/SettingsFormOptions.php:138
+#, php-format
+msgid ""
+"Please check your e-mail. You will receive a message with a link to read the "
+"remaining article %s."
+msgstr ""
+"Sjekk din e-post. Du vil motta en melding med en link for å lese resten av "
+"artikkelen %s."
+
+#. Text sent in registration e-mail, message body.
+#: models/SettingsEmailOptions.php:140
+msgid "Please click or copy the link into your web browser:"
+msgstr "Klikk eller kopier linken til din nettleser:"
+
+#. Text sent in password reset e-mail, message body.
+#: models/SettingsEmailOptions.php:159
+msgid ""
+"Please note the link can only be used once and will expire after 24 hours."
+msgstr "Merk at linken bare kan brukes en gang og funger kun i 24 timene."
+
+#: views/RegisterUserDataView.php:62
+msgid "Please select your username and password."
+msgstr "Velg ditt brukernavn og passord."
+
+#: views/AdminAdvancedView.php:121
+msgid "Preserve plugin data:"
+msgstr "Bevare innstillinger:"
+
+#. Admin panel headline
+#: views/AdminFormPreView.php:129
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#. Button label.
+#: views/WizardView.php:66
+msgid "Previous"
+msgstr "Forrige"
+
+#. Link text for compact widget. Translation should be short.
+#: src/CompactWidget.php:74
+msgid "Profile"
+msgstr "Profil"
+
+#: views/AdminLinkingView.php:96
+msgid "Profile page:"
+msgstr "Profilside:"
+
+#. Description of the plugin
+#: src/AdminPages.php:213
+msgid ""
+"Puts a combined read-more, log-in and registration form inside in posts and "
+"pages. Visitors must log in or register to read more. Remaining text will be "
+"protected and hidden for other visitors."
+msgstr ""
+"Setter en kombinert Les-mer, Logg inn og Registreringsskjema på innlegg og "
+"sider. Besøkende må logge inn eller registrere seg for å lese mer. Resten av "
+"teksten vil være beskyttet og skjult for andre besøkende."
+
+#. Headline text.
+#: models/SettingsFormOptions.php:126
+msgid "Read more"
+msgstr "Les mer"
+
+#. Name of the plugin, should only be translated if done consistently.
+#. Name of the plugin
+#: src/AdminPages.php:197 src/AdminPages.php:237 src/AdminPages.php:333
+#: views/AdminPanelView.php:37
+msgid "Read More Login"
+msgstr "Read More Login"
+
+#. Text sent in password reset e-mail, subject line.
+#: models/SettingsEmailOptions.php:150
+msgid "Recover username and reset password"
+msgstr "Gjenopprette brukernavn og resette passord"
+
+#. Button label. This button which will refresh form after settings update.
+#: views/AdminFormPreView.php:146
+msgid "Refresh"
+msgstr "Oppdater"
+
+#. Database reference number for registrations.
+#: src/AdminPages.php:346 src/AdminPages.php:395
+msgid "Reg.ID"
+msgstr "Reg.ID"
+
+#. Link text for compact widget. Translation should be short.
+#. Link label.
+#. Link label, start register as new user.
+#. Button label, start register as new user.
+#: src/CompactWidget.php:70 views/LoginView.php:72
+#: views/PasswordRecoveryView.php:65 views/ReadMoreLoginView.php:80
+#: views/ReadMoreLoginView.php:85 views/ReadMoreRegisterUsernameView.php:52
+#: views/ReadMoreRegistrationView.php:94 views/RegisterUserDataView.php:82
+#: views/RegistrationView.php:64
+msgid "Register"
+msgstr "Registrer"
+
+#: views/AdminLinkingView.php:82
+msgid "Register page:"
+msgstr "Registreringside:"
+
+#. Text sent in registration e-mail, subject line. %s: Post/page tittle.
+#: models/SettingsEmailOptions.php:132
+#, php-format
+msgid "Register to read %s"
+msgstr "Registrer deg for å lese %s"
+
+#. Headline for registration form.
+#: models/SettingsFormOptions.php:129 views/ReadMoreRegisterUsernameView.php:63
+msgid "Register to read more"
+msgstr "Registrer deg for å lese mer"
+
+#: src/AdminPages.php:444
+msgid "Registering started"
+msgstr "Registrering startet"
+
+#: views/AdminEmailView.php:109
+msgid "Registering via forms put inside articles"
+msgstr "Registrering på skjema satt inn i artikler"
+
+#: views/AdminEmailView.php:118
+msgid "Registering via the self-service registration page"
+msgstr "Registrerer seg på registreringssiden"
+
+#. Text sent in registration e-mail, subject line. %s: Name of site.
+#: models/SettingsEmailOptions.php:143
+#, php-format
+msgid "Registration at %s"
+msgstr "Registrering på %s"
+
+#: controllers/LoginController.php:180
+msgid "Registration completed. You can now log in."
+msgstr "Registreringen er fullført. Du kan nå logge inn."
+
+#. Headline
+#: views/AdminFormPreView.php:137 views/AdminFormView.php:114
+msgid "Registration form"
+msgstr "Registreringsskjema"
+
+#: controllers/RegistrationController.php:302
+msgid "Registration link has been used and user created."
+msgstr "Registreringslinken har blitt brukt og bruker opprettet."
+
+#: src/AdminPages.php:338
+msgid ""
+"Registration links sent to confirm e-mail addresses gets expired after 48 "
+"hours."
+msgstr ""
+"Registreringslink sendt for å bekrefte e-postadresser utløper etter 48 timer."
+
+#: src/AdminPages.php:249
+msgid "Registration started counter"
+msgstr "Antall registreringer startet"
+
+#: views/AdminAdvancedView.php:152
+msgid "Release candidates:"
+msgstr "Utgivelseskandidater:"
+
+#. Animation effect for how text is loaded into a page.
+#: views/AdminStyleView.php:166
+msgid "Reload page"
+msgstr "Last inn side"
+
+#. Login form, checkbox label.
+#: views/LoginView.php:63
+msgid "Remember me"
+msgstr "Husk meg"
+
+#: src/AdminPages.php:456
+msgid "Request user data"
+msgstr "Be om brukerdata"
+
+#: views/AdminFormView.php:189
+msgid ""
+"Require new users to tick of a checkbox to accept the terms and condition."
+msgstr ""
+"Krev at nye brukere krysser av sjekkboks for å godta vilkårene og "
+"betingelsene."
+
+#: views/AdminEmailView.php:127
+msgid "Reset password"
+msgstr "Reset passord"
+
+#. Animation effect for how text is loaded into a page.
+#: views/AdminStyleView.php:164
+msgid "Roll down"
+msgstr "Rull ned"
+
+#. Button label
+#: views/AdminAccessView.php:49 views/AdminAdvancedView.php:76
+#: views/AdminEmailView.php:97 views/AdminFormView.php:92
+#: views/AdminLinkingView.php:72 views/AdminSecurityView.php:47
+#: views/AdminStyleView.php:84 views/PasswordChangeView.php:55
+#: views/PasswordRecoveryChangeView.php:56 views/ProfileView.php:64
+msgid "Save changes"
+msgstr "Lagre endringer"
+
+#: views/AdminAccessView.php:59
+msgid "Search engine access:"
+msgstr "Søkemotortilgang:"
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:53
+msgid "Security"
+msgstr "Sikkerhet"
+
+#. Admin panel headline
+#: views/AdminSecurityView.php:42
+msgid "Security settings"
+msgstr "Sikkerhetsinnstillingene"
+
+#. %s: Username.
+#: controllers/PasswordRecoveryController.php:271
+#, php-format
+msgid "Select a new password for username %s."
+msgstr "Velge et nytt passord for brukernavnet %s."
+
+#. The protected text is the hidden part of article that users must log in to read.
+#: views/AdminStyleView.php:169
+msgid "Select animations for how the protected content will load."
+msgstr ""
+"Velg animasjonseffekt for hvordan det beskyttede innholdet skal lastes inn."
+
+#: views/AdminStyleView.php:154
+msgid "Select animations for how to forms will rotate."
+msgstr "Velg animasjonseffekt for hvordan skjemaer skal byttes om."
+
+#. Button label.
+#: views/PasswordRecoveryView.php:56
+msgid "Send e-mail"
+msgstr "Send e-post"
+
+#: views/AdminEmailView.php:135
+msgid ""
+"Send e-mail to site admin or an other person when a new user has registered."
+msgstr ""
+"Send e-post til administrator eller en annen person når en ny bruker har "
+"registrert seg."
+
+#. E-mail send to address.
+#: views/AdminEmailView.php:208
+msgid "Send to:"
+msgstr "Send til:"
+
+#: src/AdminPages.php:250
+msgid "Sent e-mail counter"
+msgstr "Antall e-poster sent"
+
+#: views/AdminStyleView.php:130
+msgid "Set border thickness in pixel. Use 0 to disable the border."
+msgstr ""
+"Angi tykkelse på skjemaets kantelinje i piksel. Bruk 0 til å deaktivere "
+"kantlinjen."
+
+#: views/AdminStyleView.php:97
+msgid ""
+"Set fading of text above the login form. Such fading will indicate to the "
+"reader that more text exists."
+msgstr ""
+"Angi fading over påloggingsskjemaet. Slike fading vil indikere til leseren "
+"at mer tekst finnes."
+
+#: views/AdminStyleView.php:110
+msgid "Set form and content loading animations."
+msgstr "Angi animasjonseffekter for skjema og tekstinnlasting."
+
+#: src/AdminPages.php:49 src/AdminPages.php:50
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: src/AdminPages.php:154
+msgid "Show Configuration Wizard"
+msgstr "Vis Konfigurasjonsveiviser"
+
+#: views/AdminFormView.php:151
+msgid "Show forgotten password link:"
+msgstr "Vis glemt passord link:"
+
+#: views/AdminFormView.php:133
+msgid "Show login form:"
+msgstr "Vis login skjema:"
+
+#: views/AdminFormView.php:145
+msgid "Show register button as link:"
+msgstr "Viser registersknappen som link:"
+
+#: src/AdminPages.php:334
+msgid "Show status for e-mails sent for user registrations and password reset."
+msgstr ""
+"Vis status for e-poster som er sendt ut for brukerregistreringer og "
+"resetting av passord."
+
+#: views/AdminFormView.php:187
+msgid "Show terms and conditions:"
+msgstr "Vis vilkår og betingelser:"
+
+#: src/AdminPages.php:67 src/AdminPages.php:68
+msgid "Statistics"
+msgstr "Statistikk"
+
+#: src/AdminPages.php:238
+msgid "Statistics for user registrations."
+msgstr "Statistikk for brukerregistreringer."
+
+#: src/AdminPages.php:58 src/AdminPages.php:59 src/AdminPages.php:348
+#: src/AdminPages.php:397
+msgid "Status"
+msgstr "Status"
+
+#. Admin tab menu. Limited space, keep translation short.
+#. Admin panel headline
+#: controllers/AdminSettingsTabController.php:45 views/AdminStyleView.php:69
+msgid "Style"
+msgstr "Stil"
+
+#. E-mail message subject.
+#: views/AdminEmailView.php:154 views/AdminEmailView.php:176
+#: views/AdminEmailView.php:189 views/AdminEmailView.php:212
+msgid "Subject:"
+msgstr "Emne:"
+
+#: views/AdminAdvancedView.php:137
+msgid "Switch on extra debug info."
+msgstr "Slå på ekstra feilsøkingsinformasjon."
+
+#: views/AdminAdvancedView.php:130
+msgid "Switch on logging of debug info."
+msgstr "Slå på logging av feilsøkingsinformasjon."
+
+#. "terms and condition" link label used by "Yes, I accept the %s"
+#: views/FrontPageView.php:82
+msgid "terms and condition"
+msgstr "vilkår og betingelser"
+
+#: views/AdminLinkingView.php:110
+msgid "Terms and condition page:"
+msgstr "Side for vilkår og betingelser:"
+
+#: views/AdminStyleView.php:96
+msgid "Text fading"
+msgstr "Tekst fading"
+
+#. Text sent in registration e-mail, message body. %1$s is name of article. %2$s is name of the site.
+#: models/SettingsEmailOptions.php:136
+#, php-format
+msgid "Thank you for your interest in %1$s at %2$s."
+msgstr "Takk for interessen for%1$s på %2$s."
+
+#. %s: Link to an online color picker.
+#: views/WizardView.php:146
+#, php-format
+msgid ""
+"The colors must be manually entered using RGB color values in hex format. If "
+"you need a color picker, this one is recommended: %s"
+msgstr ""
+"Fargene må skrives inn manuelt med RGB fargeverdier i hex format. Hvis du "
+"trenger en Fargevelger kan vi anbefale denne: %s"
+
+#: views/AdminStyleView.php:104
+msgid ""
+"The colors must be set using RGB color values in hex format. These start "
+"with the number sign # followed by 6 hex digits. Leave blank to use default "
+"colors."
+msgstr ""
+"Fargene må settes som RGB fargeverdier i hex format. Disse starter med "
+"nummertegn # etterfulgt av 6 heksadesimale siffer. La feltet stå tomt hvis "
+"du vil bruke standardfarger."
+
+#: views/WizardView.php:120
+msgid "The Configuration Wizard will help you with the setup of this plugin."
+msgstr ""
+"Konfigurasjonsveiviseren vil hjelpe deg med oppsettet av denne utvidelsen."
+
+#: views/AdminEmailView.php:111 views/AdminEmailView.php:120
+msgid ""
+"The e-mail asks the visitor to confirm his e-mail address by clicking a link."
+msgstr ""
+"E-postmeldingen ber den besøkende om å bekrefte e-postadressen sin ved å "
+"klikke på en link."
+
+#. %s: Shortcode
+#: views/AdminFormView.php:107
+#, php-format
+msgid ""
+"The login form will ask the visitors to log in or register as a new user to "
+"read the protected content. The login form is created by putting the "
+"shortcode %s in your post and pages."
+msgstr ""
+"Innloggingsskjemaet vil be besøkende om å logge inn eller registrere seg som "
+"ny bruker for å lese resten av artikkelen. Innloggingsskjemaet vises ved å "
+"sette inn kortkoden %s i artikkelen."
+
+#. %s: shortcode
+#: views/WizardView.php:234
+#, php-format
+msgid ""
+"The login forms are created by writing the shortcode %s in posts and pages."
+msgstr ""
+"Loginskjemaer lages ved å skrive inn kortkoden %s på innleggene og sidene."
+
+#: views/WizardView.php:122 views/WizardView.php:173
+msgid ""
+"The messages can contain HTML elements and variables. The variables will "
+"transform into user and site related texts. At the bottom of this page you "
+"will find a list of defined variables that can be used."
+msgstr ""
+"Meldingene kan inneholde HTML-elementer og variabler. Variablene vil sette "
+"inn bruker og nettstedsrelaterte tekster. Nederst på denne siden finner du "
+"en liste over definerte variabler som kan brukes."
+
+#: views/WizardView.php:202
+msgid ""
+"The pages must contain shortcodes that will display the forms. You must "
+"write the shortcodes as given below into these pages. The shortcode must be "
+"surrounded by brackets."
+msgstr ""
+"Sidene må inneholde kortkoder som vil vise skjemaene. Du må skrive inn kort-"
+"koder som angitt nedenfor på disse sidene. Kortkodenn må være omgitt av "
+"hakeparenteser."
+
+#: views/AdminStyleView.php:123
+msgid ""
+"The plugin is not able to detect your theme's background color. Please enter "
+"background color using RGB color values in hex format."
+msgstr ""
+"Utvidelsen er ikke i stand til å detektere bakgrunnsfarge på artiklene. Angi "
+"bakgrunnsfarge ved hjelp av RGB-fargeverdier i hex-format."
+
+#: views/AdminFormView.php:115
+msgid ""
+"The registration form will be displayed after visitors press the register "
+"button. The form asks for additional information required to register. After "
+"pressing the register button in this form, an e-mail will be sent asking "
+"user to confirm his e-mail address."
+msgstr ""
+"Registreringsskjemaet vil vises etter at besøkende trykker på registrer-"
+"knappen. Skjemaet ber om ytterligere informasjon som kreves for å registrere."
+" Etter at registrer knappet trykkes på formen, vil en e-post bli sendt som "
+"ber brukeren om å bekrefte sin e-post adresse."
+
+#: views/WizardView.php:171
+msgid ""
+"These e-mails are sent when somebody registers or has requested a password "
+"reset."
+msgstr ""
+"Disse e-postene sendes når noen registrerer seg eller har bedt om å resette "
+"passordet."
+
+#: src/AdminPages.php:239
+msgid "These numbers applies only for the registration forms inside articles."
+msgstr ""
+"Disse tallene gjelder bare for registreringsskjemaene satt inn i artikler."
+
+#: views/AdminEmailView.php:150 views/AdminEmailView.php:172
+#: views/AdminEmailView.php:185 views/AdminEmailView.php:204
+msgid ""
+"This e-mail address will appear as the sender, which the receiver can reply "
+"to if needed. Optional field, leave blank to use WordPress default."
+msgstr ""
+"Denne e-postadressen vises som avsender, som mottaker kan svare på hvis det "
+"er nødvendig. Valgfritt felt, la stå tomt for å bruke WordPress standard."
+
+#: views/AdminEmailView.php:128
+msgid ""
+"This e-mail will be sent to user requesting a password reset link. This e-"
+"mail should also inform what the username is."
+msgstr ""
+"Denne e-posten vil bli sendt med link for å resette passord. Denne meldingen "
+"bør også informere hva brukernavnet er."
+
+#: views/AdminEmailView.php:110
+msgid ""
+"This e-mail will be sent to visitors registering via the forms put inside "
+"articles."
+msgstr ""
+"Denne e-posten vil bli sendt til besøkende som å registrere seg på skjemaene "
+"satt inne artikler."
+
+#: views/AdminEmailView.php:119
+msgid ""
+"This e-mail will be sent to visitors registering via the user handling page."
+msgstr ""
+"Denne e-posten vil bli sendt til besøkende som registrerer seg på siden for "
+"brukerhåndtering."
+
+#: src/AdminPages.php:224
+msgid ""
+"This example shows correct usage of the shortcode between two paragraphs:"
+msgstr "Dette eksemplet viser riktig bruk av kortkoden mellom to avsnitt:"
+
+#: controllers/ReadMoreLoginController.php:500
+msgid ""
+"This link has been used and registration is completed. You can now log in."
+msgstr ""
+"Denne linken har blitt brukt og registreringen er fullført. Du kan nå logge "
+"inn."
+
+#: views/AdminEmailView.php:112
+msgid ""
+"This link will send the new user right back to the article and let him read "
+"the remaining protected content."
+msgstr ""
+"Denne linken vil sende den nye brukeren rett tilbake til artikkelen for å "
+"lese resten av det beskyttede innholdet."
+
+#: views/AdminEmailView.php:121
+msgid ""
+"This link will send the new user right back to the same user handling page "
+"to complete the registration."
+msgstr ""
+"Denne linken vil sende den nye brukeren rett tilbake til siden for "
+"brukerhåndtering for å fullføre registreringen."
+
+#: controllers/PasswordRecoveryController.php:237
+#: controllers/PasswordRecoveryController.php:290
+#: controllers/PasswordRecoveryController.php:298
+msgid ""
+"This password reset link has been used. The link can only be used once. You "
+"can now log in or you need to request a new password reset link."
+msgstr ""
+"Denne passord reset linken har blitt brukt. Linken kan bare brukes en gang. "
+"Du kan nå logge inn eller be om å få tilsendt ny passord reset link."
+
+#: controllers/PasswordRecoveryController.php:241
+msgid ""
+"This password reset link has expired. You must request a new e-mail with a "
+"new reset link."
+msgstr ""
+"Denne passord reset linken har utløpt. Du må be om å få tilsendt ny passord "
+"reset link."
+
+#: views/AdminAccessView.php:63
+msgid ""
+"This will also allow search engines to read and index your entire page and "
+"could improve your ratings on searches."
+msgstr ""
+"Dette vil også tillate søkemotorer å lese og indeksere hele siden og kan "
+"forbedre dine rangeringer på søk."
+
+#: views/AdminAdvancedView.php:132
+msgid "This will switch on error and warning messages."
+msgstr "Dette vil slå på feil og varselsmeldinger."
+
+#: src/AdminPages.php:347 src/AdminPages.php:396
+msgid "Time-stamp"
+msgstr "Tidspunkt"
+
+#. Text sent in registration e-mail, message body.
+#: models/SettingsEmailOptions.php:138
+msgid "To read the remaining article follow this link."
+msgstr "For å lese resten av artikkelen følg denne linken."
+
+#. This is sum of adding calculation.
+#: src/AdminPages.php:313
+msgid "Totals"
+msgstr "Sum"
+
+#: controllers/MembershipController.php:1415
+msgid "Undefined error."
+msgstr "Udefinert feil."
+
+#: controllers/MembershipController.php:669
+msgid "Undefined error. Illegal characters in name."
+msgstr "Udefinert feil. Ugyldige tegn i navnet."
+
+#: views/AdminAdvancedView.php:88
+msgid "Uninstall options"
+msgstr "Alternativer for avinstallering"
+
+#. Link label.
+#: views/LogoutView.php:65
+msgid "Update your profile"
+msgstr "Oppdatere din brukerprofil"
+
+#. Text sent in password reset e-mail, message body.
+#: models/SettingsEmailOptions.php:156
+msgid "Use this link to reset your password:"
+msgstr "Bruk denne linken til å tilbakestille passordet:"
+
+#. %s: E-mail address.
+#: controllers/LoginController.php:189
+#: controllers/ReadMoreLoginController.php:673
+#, php-format
+msgid "User account with e-mail %s already exists. You can now log in."
+msgstr ""
+"Brukerkonto med e-postadresse %s er allerede opprettet. Du kan nå logge inn."
+
+#. %s: E-mail address.
+#: controllers/RegistrationController.php:337
+#, php-format
+msgid "User account with e-mail %s are already registered. You can now log in."
+msgstr "Brukerkonto med e-post %s er allerede registrert. Du kan nå logge inn."
+
+#: controllers/LoginController.php:184
+msgid "User already created. You can now log in."
+msgstr "Brukerkonto er allerede opprettet. Du kan nå logge inn."
+
+#: src/AdminPages.php:337
+msgid "User registration status"
+msgstr "Status for brukerregistrering"
+
+#: src/AdminPages.php:349 src/AdminPages.php:398 views/ProfileView.php:58
+msgid "Username"
+msgstr "Brukernavn"
+
+#. %s: Username.
+#: controllers/ReadMoreLoginController.php:653
+#, php-format
+msgid "Username %s already taken. Please select another username."
+msgstr "Brukernavnet %s er allerede tatt. Velg et annet brukernavn."
+
+#: controllers/ReadMoreLoginController.php:532
+msgid "Username accepted. Loading text..."
+msgstr "Brukernavn akseptert. Laster inn tekst..."
+
+#: controllers/RegistrationController.php:172
+msgid "Username already taken. Please select another username."
+msgstr "Brukernavnet er allerede tatt. Velg et annet brukernavn."
+
+#: controllers/RegistrationController.php:166
+msgid ""
+"Username has already been registered. Log in or register using another e-"
+"mail."
+msgstr ""
+"Brukernavnet er allerede registrert. Logg inn eller registrer deg med en "
+"annen e-post."
+
+#: views/LoginView.php:60 views/ReadMoreLoginView.php:67
+#: views/ReadMoreRegisterUsernameView.php:49 views/RegisterUserDataView.php:65
+msgid "Username:"
+msgstr "Brukernavn:"
+
+#. Text sent in admin notification e-mail, message body. %s: Username.
+#. %s: username.
+#: models/SettingsEmailOptions.php:166 views/LogoutView.php:53
+#, php-format
+msgid "Username: %s"
+msgstr "Brukernavn: %s"
+
+#: views/ProfileView.php:75
+msgid "Usernames cannot be changed."
+msgstr "Brukernavn kan ikke endres."
+
+#: views/AdminPanelView.php:106
+msgid "Variable will put in the link to the site."
+msgstr "Variable vil sette i linken til nettstedet."
+
+#: views/AdminPanelView.php:101
+msgid "Variable will put in the name of the site."
+msgstr "Variabelen vil sette i navnet på nettstedet."
+
+#: views/AdminPanelView.php:96
+msgid "Variable will put in the tittle of page the user are registering on."
+msgstr ""
+"Variable vil sette inn tittelen på siden som brukeren registrerer seg på."
+
+#: views/AdminPanelView.php:91
+msgid "Variable will put in the user's e-mail address."
+msgstr "Variabelen vil sette inn brukerens e-postadresse."
+
+#: views/AdminPanelView.php:71
+msgid ""
+"Variable will put in the user's username. This variable is not available "
+"before the username has been given during the registration."
+msgstr ""
+"Variabelen vil sette inn brukerens brukernavn. Denne variabelen er ikke "
+"tilgjengelig før brukernavnet er blitt gitt under registreringen."
+
+#: views/AdminPanelView.php:76
+msgid ""
+"Variable will put in user's first name. If not given it will write blank."
+msgstr ""
+"Variabelen vil sette inn brukerens fornavn. Hvis ikke gitt vil den skrive "
+"blank."
+
+#: views/AdminPanelView.php:81
+msgid ""
+"Variable will put in user's last name. If not given it will write blank."
+msgstr ""
+"Variabelen vil sette inn brukerens etternavn. Hvis ikke gitt vil den skrive "
+"blank."
+
+#. Animation effect for how new forms are loaded into a page.
+#: views/AdminStyleView.php:152
+msgid "Vertical roll up and down"
+msgstr "Rull opp og ned"
+
+#: views/AdminAccessView.php:61
+msgid ""
+"Visitors from search engines like Google can read protected content without "
+"login."
+msgstr ""
+"Besøkende fra søkemotorer som Google kan lese beskyttet innhold uten "
+"pålogging."
+
+#: src/AdminPages.php:219
+msgid "Warning!"
+msgstr "Advarsel!"
+
+#. %s: </table>
+#: src/AdminPages.php:223
+#, php-format
+msgid ""
+"When login form shows, the shortcode will cut of the remaining text "
+"including html tags for that post/page. You may miss html end tags (tags "
+"marked with slash like %s). Missing end tags may mess up your page. To be "
+"safe is recommended to put in the shortcode between two completed paragraphs."
+msgstr ""
+"Når innloggingsskjemaet vises vil kortkoden kutte av gjenværende tekst "
+"inkludert HTML-koder for innlegget og siden. Dette gjør at HTML sluttkoder "
+"kan bli maskert bort (koder merket med skråstrek som %s). Manglende "
+"sluttkoder kan rote opp siden din. For å være sikker er det best å sette inn "
+"kortkoden mellom to hele avsnitt."
+
+#: controllers/ReadMoreLoginController.php:150
+#: controllers/ReadMoreLoginController.php:230
+#: controllers/ReadMoreLoginController.php:539
+msgid "Wrong username or password."
+msgstr "Feil brukernavn eller passord."
+
+#: views/AdminEmailView.php:198 views/AdminFormView.php:135
+#: views/AdminFormView.php:141 views/AdminFormView.php:147
+#: views/AdminFormView.php:153 views/AdminStyleView.php:114
+msgid "Yes"
+msgstr "Ja"
+
+#. %s: link label saying terms and condition.
+#: views/FrontPageView.php:85
+#, php-format
+msgid "Yes, I accept the %s."
+msgstr "Ja, jeg godtar %s."
+
+#: views/LogoutView.php:45
+msgid "You are now logged in."
+msgstr "Du er nå innlogget."
+
+#. %s: E-mail address.
+#: controllers/RegistrationController.php:322
+#: controllers/RegistrationController.php:377
+#, php-format
+msgid "You are registering using e-mail address %s"
+msgstr "Du registrerer deg med e-postadresse %s"
+
+#: controllers/MembershipController.php:572
+msgid "You can not use e-mail as username. Please select another username."
+msgstr "Du kan ikke bruke e-post som brukernavn. Velg et annet brukernavn."
+
+#: views/AdminFormPreView.php:151
+msgid ""
+"You can test the forms by pressing the buttons in the the preview. The "
+"preview will not send e-mail notifications."
+msgstr ""
+"Du kan teste skjemaene ved å trykke knappene i forhåndsvisningen. "
+"Forhåndsvisningen vil ikke sende e-post varsler."
+
+#. Text sent in password reset e-mail, message body. %s: Name of site.
+#: models/SettingsEmailOptions.php:152
+#, php-format
+msgid ""
+"You have requested to recover your username or reset your password at %s."
+msgstr ""
+"Du har bedt om å få tilsendt ditt brukernavnet eller resette ditt passordet "
+"til %s."
+
+#: controllers/MembershipController.php:555
+msgid "You must accept the terms and conditions to register."
+msgstr "Du må godta vilkårene og betingelsene for å registrere deg."
+
+#: controllers/MembershipController.php:467
+msgid "You must enter a new password."
+msgstr "Du må angi et nytt passord."
+
+#: controllers/MembershipController.php:473
+#: controllers/MembershipController.php:478
+msgid "You must enter same password in both inputs."
+msgstr "Du må skrive inn samme passord i begge feltene."
+
+#: controllers/MembershipController.php:540
+msgid "You must enter your e-mail address to register."
+msgstr "Du må skrive inn e-postadressen din for å registrere deg."
+
+#: controllers/MembershipController.php:496
+msgid "You must enter your e-mail address."
+msgstr "Du må skrive inn e-postadressen din."
+
+#: controllers/MembershipController.php:396
+msgid "You must enter your password to log in."
+msgstr "Du må skrive inn passordet for å logge deg på."
+
+#: controllers/MembershipController.php:411
+msgid "You must enter your username and password to log in."
+msgstr "Du må skrive inn brukernavn og passord for å logge deg inn."
+
+#: controllers/MembershipController.php:417
+msgid "You must enter your username to log in."
+msgstr "Du må skrive inn brukernavnet ditt for å logge deg inn."
+
+#: src/Membership.php:62
+msgid "You must log in to access your user profile."
+msgstr "Du må logge inn for å få tilgang til brukerprofilen din."
+
+#: models/SettingsFormOptions.php:127
+msgid ""
+"You must log in to read the rest of this article. Please log in or register "
+"as a user."
+msgstr ""
+"Du må logge inn for å lese resten av denne artikkelen. Vennligst logg inn "
+"eller registrer deg som bruker."
+
+#: controllers/MembershipController.php:591
+#: controllers/MembershipController.php:617
+msgid "You must select a password to register."
+msgstr "Du må velge et passord for å registrere deg."
+
+#: controllers/MembershipController.php:612
+msgid "You must select a username to register."
+msgstr "Du må velge et brukernavn for å registrere."
+
+#: controllers/MembershipController.php:606
+msgid "You must select username and password to register."
+msgstr "Du må velge brukernavn og passord for å registrere deg."
+
+#: controllers/ProfileController.php:71
+msgid "Your profile has been updated."
+msgstr "Din profil har blitt oppdatert."
+
+#: controllers/AdminSettingsPreviewFormController.php:40
+msgid "Your settings have been saved."
+msgstr "Innstillingene er lagret."
+
+#. Text sent in password reset e-mail, message body. %s: Username.
+#: models/SettingsEmailOptions.php:154
+#, php-format
+msgid "Your username is %s"
+msgstr "Ditt brukernavn er %s"

@@ -1,0 +1,1561 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read More Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-29 11:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.1"
+
+#. %1$s: The text Warning! %2$s: shortcode.
+#: src/AdminPages.php:221
+#, php-format
+msgid ""
+"%1$s Do not use the shortcode %2$s inside tables or other html elements."
+msgstr ""
+
+#: views/WizardView.php:232
+msgid ""
+"A basic set of configuration should now be completed. You can now start "
+"create some login forms in your posts and pages."
+msgstr ""
+
+#. Text sent in admin notification e-mail, message body. %s: Name of site.
+#: models/SettingsEmailOptions.php:164
+#, php-format
+msgid "A new member has registered at %s."
+msgstr ""
+
+#. Admin tab menu. Abbreviation for Search Engine Optimization. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:51
+msgid "Access"
+msgstr ""
+
+#. Admin panel headline
+#: views/AdminAccessView.php:44
+msgid "Access settings"
+msgstr ""
+
+#. This is label to a link for adding new pages.
+#: views/WizardView.php:199
+msgid "add new page"
+msgstr ""
+
+#: src/AdminPages.php:216
+msgid "Add shortcodes to your posts and pages"
+msgstr ""
+
+#: views/AdminEmailView.php:134
+msgid "Administrator notification"
+msgstr ""
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:55
+msgid "Advanced"
+msgstr ""
+
+#. Admin panel headline
+#: views/AdminAdvancedView.php:56
+msgid "Advanced settings"
+msgstr ""
+
+#: views/AdminFormView.php:123
+msgid ""
+"After the registration e-mail has been sent, this form ask the visitor to "
+"check his e-mail. The visitor needs to confirm his e-mail address by "
+"clicking a link in the e-mail to complete the registration. This link will "
+"also send the user right back to the same page and auto-login to read the "
+"remaining article."
+msgstr ""
+
+#: views/AdminLinkingView.php:114
+msgid "After user has logged out, he will be redirected to this page."
+msgstr ""
+
+#: views/WizardView.php:235
+msgid ""
+"After you have put in a shortcode, you need to log out to see it in action."
+msgstr ""
+
+#. %s: E-mail address.
+#: models/SettingsFormOptions.php:135
+#, php-format
+msgid "An e-mail has been sent to %s."
+msgstr ""
+
+#. %s: E-mail address.
+#: controllers/RegistrationController.php:264
+#, php-format
+msgid "An e-mail has been sent to %s. Please check your e-mail."
+msgstr ""
+
+#: views/AdminStyleView.php:109
+msgid "Animation effects"
+msgstr ""
+
+#. Button label.
+#: src/AdminPages.php:146
+msgid "Apply"
+msgstr ""
+
+#. Author of the plugin
+msgid "Arild Hegvik"
+msgstr ""
+
+#: views/AdminFormView.php:165
+msgid "Ask for first name when new users are registering."
+msgstr ""
+
+#: views/AdminFormView.php:163
+msgid "Ask for first name:"
+msgstr ""
+
+#: views/AdminFormView.php:171
+msgid "Ask for last name when new users are registering."
+msgstr ""
+
+#: views/AdminFormView.php:169
+msgid "Ask for last name:"
+msgstr ""
+
+#: views/AdminStyleView.php:122
+msgid "Background color:"
+msgstr ""
+
+#: views/AdminAdvancedView.php:158
+msgid "Beta versions:"
+msgstr ""
+
+#: views/AdminStyleView.php:142
+msgid "Button border color:"
+msgstr ""
+
+#: views/AdminStyleView.php:136
+msgid "Button color:"
+msgstr ""
+
+#: views/AdminStyleView.php:139
+msgid "Button text color:"
+msgstr ""
+
+#. Link label.
+#: views/ProfileView.php:69
+msgid "Change password"
+msgstr ""
+
+#: views/AdminLinkingView.php:103
+msgid "Change/reset password page:"
+msgstr ""
+
+#. Headline
+#: views/AdminFormPreView.php:138 views/AdminFormView.php:122
+msgid "Check e-mail form"
+msgstr ""
+
+#: models/SettingsFormOptions.php:132
+msgid "Check your e-mail"
+msgstr ""
+
+#. Text sent in registration e-mail, message body.
+#: models/SettingsEmailOptions.php:147
+msgid "Click or copy the link into your web browser:"
+msgstr ""
+
+#. Button label.
+#: views/WizardView.php:68
+msgid "Close"
+msgstr ""
+
+#. Headline for registration form.
+#: views/RegisterUserDataView.php:57
+msgid "Complete your registration"
+msgstr ""
+
+#: src/AdminPages.php:460 src/AdminPages.php:472
+msgid "Completed"
+msgstr ""
+
+#: src/AdminPages.php:251
+msgid "Completed counter"
+msgstr ""
+
+#: src/AdminPages.php:149
+msgid "Configuration Wizard"
+msgstr ""
+
+#. %1$d: Step number for configuration wizard. %2$d: Total number of wizard steps.
+#: views/WizardView.php:263
+#, php-format
+msgid "Configuration Wizard - Step %1$d of %2$d"
+msgstr ""
+
+#: views/PasswordChangeView.php:52 views/PasswordRecoveryChangeView.php:53
+msgid "Confirm password:"
+msgstr ""
+
+#. The text is the hidden part of article that users must log in to read, and how this will load into the page.
+#: views/AdminStyleView.php:157
+msgid "Content loading:"
+msgstr ""
+
+#: views/AdminAdvancedView.php:95
+msgid "Debug logging"
+msgstr ""
+
+#: views/AdminPanelView.php:86
+msgid ""
+"Depending of what is available the variable will put in the user's first "
+"name and/or the last name. If no name has been given, variable will write "
+"the user's username."
+msgstr ""
+
+#: views/AdminPanelView.php:113
+msgid ""
+"Depending on type of e-mail this variable will put in link to read the "
+"remaining article or to complete the registration or the password change "
+"page."
+msgstr ""
+
+#: views/AdminAdvancedView.php:166
+msgid "Development versions:"
+msgstr ""
+
+#: views/AdminAdvancedView.php:160
+msgid "Download and install beta test versions."
+msgstr ""
+
+#: views/AdminAdvancedView.php:168
+msgid "Download and install latest development version."
+msgstr ""
+
+#. %s: Path and filename to log file.
+#: views/AdminAdvancedView.php:105
+msgid ""
+"Download and install licensed premium editions. The download will be "
+"available in the list of installed plugins."
+msgstr ""
+
+#: views/AdminAdvancedView.php:154
+msgid "Download and install release candidates."
+msgstr ""
+
+#. %s: Path and filename to log file.
+#: views/AdminAdvancedView.php:116
+msgid ""
+"Download and update of beta and release candidate versions ahead of public "
+"release. These versions are not recommended for production servers, but for "
+"testing ahead of final release. The download will be available in the list "
+"of installed plugins."
+msgstr ""
+
+#: views/AdminAdvancedView.php:103
+msgid "Download licensed editions"
+msgstr ""
+
+#: views/AdminAdvancedView.php:114
+msgid "Download pre-release versions"
+msgstr ""
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:47 src/AdminPages.php:350
+#: src/AdminPages.php:399 views/ProfileView.php:61
+msgid "E-mail"
+msgstr ""
+
+#: controllers/MembershipController.php:534
+msgid "E-mail address has wrong format. Please write a correct e-mail address."
+msgstr ""
+
+#: controllers/ReadMoreLoginController.php:680
+msgid ""
+"E-mail address registration error. Please register your e-mail address again."
+msgstr ""
+
+#: views/PasswordRecoveryView.php:53 views/ReadMoreRegistrationView.php:73
+#: views/RegistrationView.php:54
+msgid "E-mail address:"
+msgstr ""
+
+#: views/AdminSecurityView.php:57
+msgid "E-mail as username:"
+msgstr ""
+
+#: src/AdminPages.php:452 src/AdminPages.php:468
+msgid "E-mail confirmed"
+msgstr ""
+
+#: src/AdminPages.php:448 src/AdminPages.php:464
+msgid "E-mail sent"
+msgstr ""
+
+#. %s: E-mail address.
+#: controllers/PasswordRecoveryController.php:174
+#, php-format
+msgid "E-mail sent to %s with username and password reset link."
+msgstr ""
+
+#. Admin panel headline
+#: views/AdminEmailView.php:74
+msgid "E-mail setup"
+msgstr ""
+
+#: views/AdminAdvancedView.php:128
+msgid "Enable debug log:"
+msgstr ""
+
+#. %s: Path and filename to log file.
+#: views/AdminAdvancedView.php:97
+#, php-format
+msgid ""
+"Enable logging of debug information from this plugin. In case you have "
+"problem with the plugin, this can give helpful information to solve it. Log "
+"will be saved to the file %s."
+msgstr ""
+
+#: views/AdminEmailView.php:196
+msgid "Enable notification:"
+msgstr ""
+
+#: views/AdminFormView.php:139
+msgid "Enable registration in form:"
+msgstr ""
+
+#: views/AdminStyleView.php:113
+msgid "Enable text fading:"
+msgstr ""
+
+#: models/SettingsFormOptions.php:130 views/RegistrationView.php:51
+msgid "Enter your e-mail address to register."
+msgstr ""
+
+#: views/PasswordRecoveryView.php:50
+msgid ""
+"Enter your e-mail and we will send your username and password reset link."
+msgstr ""
+
+#: controllers/MembershipController.php:483
+msgid ""
+"Entered passwords does not match. You must enter same password in both "
+"inputs."
+msgstr ""
+
+#: controllers/ReadMoreLoginController.php:687
+msgid "Error creating username. Please select another username."
+msgstr ""
+
+#: controllers/RegistrationController.php:189
+msgid ""
+"Error registering. Please retry or contact site admin if problem persists."
+msgstr ""
+
+#: controllers/PasswordChangeController.php:87
+msgid "Error saving password. Please retry with another password."
+msgstr ""
+
+#. %s: E-mail address.
+#: controllers/MembershipController.php:751
+#: controllers/PasswordRecoveryController.php:185
+#, php-format
+msgid ""
+"Error sending e-mail to %s. Retry later or contact site admin if problem "
+"persists."
+msgstr ""
+
+#: controllers/ReadMoreLoginController.php:625
+msgid "Error. Can not log in."
+msgstr ""
+
+#: controllers/MembershipController.php:403
+msgid "Error. Entered username has invalid characters or is wrong."
+msgstr ""
+
+#: controllers/MembershipController.php:598
+msgid "Error. Entered username has invalid characters."
+msgstr ""
+
+#: controllers/MembershipController.php:516
+msgid ""
+"Error. Invalid e-mail address format. Please enter a correct e-mail address."
+msgstr ""
+
+#. %s: Username.
+#: controllers/ReadMoreLoginController.php:663
+#, php-format
+msgid "Error. Invalid username %s. Please select another username."
+msgstr ""
+
+#: controllers/MembershipController.php:758
+msgid "Error. Maximum number of e-mail sent."
+msgstr ""
+
+#: controllers/MembershipController.php:510
+msgid ""
+"Error. This e-mail has no user account. Please enter the e-mail address used "
+"during registration."
+msgstr ""
+
+#: controllers/MembershipController.php:585
+msgid ""
+"Error. This username has already been taken. Please select another username."
+msgstr ""
+
+#: controllers/LoginController.php:113
+msgid "Error. Wrong username or password."
+msgstr ""
+
+#: src/AdminPages.php:476 src/AdminPages.php:480
+msgid "Expired"
+msgstr ""
+
+#. Animation effect for how text is loaded into a page.
+#: views/AdminStyleView.php:162
+msgid "Fade in"
+msgstr ""
+
+#. Animation effect for how new forms are loaded into a page.
+#: views/AdminStyleView.php:150
+msgid "Fade out and in"
+msgstr ""
+
+#: views/AdminStyleView.php:118
+msgid "Fading height:"
+msgstr ""
+
+#: views/ProfileView.php:59
+msgid "First name"
+msgstr ""
+
+#: controllers/MembershipController.php:641
+msgid "First name is required field."
+msgstr ""
+
+#: views/AdminFormView.php:175
+msgid "First name is required:"
+msgstr ""
+
+#. A person's first name.
+#: views/ReadMoreRegistrationView.php:78 views/RegisterUserDataView.php:72
+msgid "First name:"
+msgstr ""
+
+#. Text sent in registration e-mail, message body. %s: Name of site.
+#: models/SettingsEmailOptions.php:145
+#, php-format
+msgid "Follow this link to complete your registration at %s."
+msgstr ""
+
+#: views/AdminSecurityView.php:59
+msgid "Forbid users to register using their e-mail address as username."
+msgstr ""
+
+#. Link label.
+#: views/LoginView.php:76 views/ReadMoreLoginView.php:93
+#: views/RegistrationView.php:72
+msgid "Forgotten username or password?"
+msgstr ""
+
+#: views/AdminStyleView.php:103
+msgid "Form colors and appearance"
+msgstr ""
+
+#: views/AdminStyleView.php:145
+msgid "Form rotations:"
+msgstr ""
+
+#. Admin panel headline
+#: views/AdminFormView.php:73
+msgid "Form setup"
+msgstr ""
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:43
+msgid "Forms"
+msgstr ""
+
+#: views/AdminStyleView.php:126
+msgid "Frame background color:"
+msgstr ""
+
+#: views/AdminStyleView.php:133
+msgid "Frame border color:"
+msgstr ""
+
+#: views/AdminStyleView.php:129
+msgid "Frame border thickness:"
+msgstr ""
+
+#. E-mail from/reply address.
+#: views/AdminEmailView.php:149 views/AdminEmailView.php:171
+#: views/AdminEmailView.php:184 views/AdminEmailView.php:203
+msgid "From/reply:"
+msgstr ""
+
+#: views/AdminFormView.php:127 views/AdminFormView.php:157
+#: views/AdminFormView.php:193
+msgid "Header text:"
+msgstr ""
+
+#: views/AdminStyleView.php:119
+msgid ""
+"Height of fading area. Number unit is \"em\". Recommended value between 5 - "
+"20."
+msgstr ""
+
+#. Text sent in registration e-mail, message body. %s: User's name.
+#: models/SettingsEmailOptions.php:134
+#, php-format
+msgid "Hello %s!"
+msgstr ""
+
+#: src/AdminPages.php:76 src/AdminPages.php:77
+msgid "Help"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.readmorelogin.com"
+msgstr ""
+
+#: views/AdminSecurityView.php:61
+msgid ""
+"If a visitor tries to register using an e-mail address as username, he will "
+"be asked to correct it by enter a non-email."
+msgstr ""
+
+#: views/WizardView.php:147
+msgid ""
+"If you have a colored background behind the article, you must specify this "
+"color in the Background color input field below."
+msgstr ""
+
+#: views/AdminAdvancedView.php:125
+msgid ""
+"If you want to uninstall this plugin and reinstall it later, this will save "
+"the settings, status and statistics data. Registered users will not be "
+"affected by this setting, that data is preserved by WordPress's own database "
+"tables."
+msgstr ""
+
+#: controllers/PasswordRecoveryController.php:177
+msgid ""
+"In case you don't see the e-mail, also check your e-mail application's spam "
+"folder."
+msgstr ""
+
+#. %s: Shortcode.
+#: src/AdminPages.php:218
+#, php-format
+msgid ""
+"In the posts and pages you want login form, put the shortcode %s in the text "
+"where you want the login form to appear."
+msgstr ""
+
+#: src/AdminPages.php:212
+msgid "Introduction"
+msgstr ""
+
+#: views/AdminAdvancedView.php:123
+msgid "Keep the plugin's settings and data after uninstall."
+msgstr ""
+
+#: views/ProfileView.php:60
+msgid "Last name"
+msgstr ""
+
+#: controllers/MembershipController.php:658
+msgid "Last name is required field."
+msgstr ""
+
+#: views/AdminFormView.php:181
+msgid "Last name is required:"
+msgstr ""
+
+#. A person's last name.
+#: views/ReadMoreRegistrationView.php:84 views/RegisterUserDataView.php:78
+msgid "Last name:"
+msgstr ""
+
+#: views/AdminAdvancedView.php:144
+msgid ""
+"License key to be provided by plugin developer. Go to www.readmorelogin.com."
+msgstr ""
+
+#: views/AdminAdvancedView.php:143
+msgid "License key:"
+msgstr ""
+
+#. Admin panel headline
+#: views/AdminLinkingView.php:62
+msgid "Links for user handling"
+msgstr ""
+
+#: src/AdminPages.php:335
+msgid "Listings in the tables will be cleared after 30 days"
+msgstr ""
+
+#: src/AdminPages.php:214
+#, php-format
+msgid "Live demo and list of features: %s"
+msgstr ""
+
+#: controllers/ReadMoreLoginController.php:224
+#: controllers/ReadMoreLoginController.php:243
+msgid "Loading text..."
+msgstr ""
+
+#: views/AdminAdvancedView.php:135
+msgid "Log extra debug info:"
+msgstr ""
+
+#. Button label.
+#: views/LoginView.php:66 views/PasswordRecoveryView.php:60
+#: views/ReadMoreLoginView.php:71 views/RegistrationView.php:70
+msgid "Log in"
+msgstr ""
+
+#. Button label.
+#: views/LogoutView.php:60
+msgid "Log out"
+msgstr ""
+
+#. Link text for compact widget. Translation should be short.
+#: src/CompactWidget.php:68
+msgid "Login"
+msgstr ""
+
+#. Headline
+#: views/AdminFormPreView.php:136 views/AdminFormView.php:105
+msgid "Login form"
+msgstr ""
+
+#: views/AdminLinkingView.php:89
+msgid "Login page:"
+msgstr ""
+
+#. Link text for compact widget. Translation should be short.
+#: src/CompactWidget.php:72
+msgid "Logout"
+msgstr ""
+
+#: views/AdminLinkingView.php:113
+msgid "Logout redirect link:"
+msgstr ""
+
+#: views/AdminFormView.php:177
+msgid ""
+"Make first name required field. User can not complete registration without "
+"filling it in."
+msgstr ""
+
+#: views/AdminFormView.php:183
+msgid ""
+"Make last name required field. User can not complete registration without "
+"filling it in."
+msgstr ""
+
+#. %s: Link to add new pages in the dashboard.
+#: views/WizardView.php:201
+#, php-format
+msgid ""
+"Make links to pages for user handling like login, registering, profile and "
+"password recovery pages. You must manually created these pages by %s."
+msgstr ""
+
+#: views/AdminFormView.php:130 views/AdminFormView.php:160
+#: views/AdminFormView.php:196
+msgid "Message text:"
+msgstr ""
+
+#. E-mail message body.
+#: views/AdminEmailView.php:158 views/AdminEmailView.php:180
+#: views/AdminEmailView.php:193 views/AdminEmailView.php:216
+msgid "Message:"
+msgstr ""
+
+#: views/PasswordChangeView.php:51 views/PasswordRecoveryChangeView.php:52
+msgid "New password:"
+msgstr ""
+
+#. Button label.
+#: views/WizardView.php:70
+msgid "Next"
+msgstr ""
+
+#: views/AdminStyleView.php:148 views/AdminStyleView.php:160
+msgid "No animation effects"
+msgstr ""
+
+#: src/AdminPages.php:433
+msgid "No registrations."
+msgstr ""
+
+#. %s: E-mail address.
+#: controllers/PasswordRecoveryController.php:279
+#, php-format
+msgid "No user with e-mail address %s."
+msgstr ""
+
+#: views/AdminAdvancedView.php:139
+msgid ""
+"Note! Do not the enable extra debug logging continuously as the log will "
+"grow very large over time."
+msgstr ""
+
+#. %s is <p></p>
+#: src/AdminPages.php:228
+#, php-format
+msgid "Note! On newer WordPress versions, the paragraph tag %s will be hidden."
+msgstr ""
+
+#. Text sent in admin notification e-mail, subject line.
+#: models/SettingsEmailOptions.php:162
+msgid "Notification of new user registration"
+msgstr ""
+
+#. %s will show the shortcode.
+#: views/AdminLinkingView.php:106
+#, php-format
+msgid ""
+"On this page users can change their password. If not logged in, the user can "
+"ask for a password reset link, which will be sent by e-mail. You must put "
+"the shortcode %s on this page."
+msgstr ""
+
+#. %s will show the shortcode.
+#: views/AdminLinkingView.php:92
+#, php-format
+msgid ""
+"On this page users can log in and out. You must put the shortcode %s on this "
+"page."
+msgstr ""
+
+#. %s will show the shortcode.
+#: views/AdminLinkingView.php:99
+#, php-format
+msgid ""
+"On this page users can update their personal information. You must put the "
+"shortcode %s on this page."
+msgstr ""
+
+#. %s will show the shortcode.
+#: views/AdminLinkingView.php:85
+#, php-format
+msgid ""
+"On this page visitors can register as new users. You must put the shortcode "
+"%s on this page."
+msgstr ""
+
+#: views/WizardView.php:143
+msgid ""
+"On this page you can adjust the style, colors and configure animation "
+"effects for the forms."
+msgstr ""
+
+#: views/WizardView.php:121
+msgid ""
+"On this page you can adjust the text in the forms and select what "
+"information will be required from new users during registrations. The "
+"preview will show you how it will look like in real."
+msgstr ""
+
+#: views/AdminLinkingView.php:111
+msgid ""
+"On this page you can write your terms and conditions, which new users must "
+"accept to register."
+msgstr ""
+
+#: src/AdminPages.php:246 src/AdminPages.php:351 src/AdminPages.php:400
+msgid "Page ID"
+msgstr ""
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:49
+msgid "Page linking"
+msgstr ""
+
+#: src/AdminPages.php:247 src/AdminPages.php:352 src/AdminPages.php:401
+msgid "Page title"
+msgstr ""
+
+#: src/AdminPages.php:248
+msgid "Page view counter"
+msgstr ""
+
+#: controllers/PasswordChangeController.php:76
+msgid "Password has been changed."
+msgstr ""
+
+#: controllers/LoginController.php:195
+#: controllers/PasswordRecoveryController.php:225
+msgid "Password has been changed. You can now log in."
+msgstr ""
+
+#: src/AdminPages.php:390
+msgid "Password reset links gets expired after 1 hour."
+msgstr ""
+
+#: src/AdminPages.php:389
+msgid "Password reset status"
+msgstr ""
+
+#: views/LoginView.php:61 views/ReadMoreLoginView.php:68
+#: views/RegisterUserDataView.php:66
+msgid "Password:"
+msgstr ""
+
+#. %s: Title of article to read.
+#: models/SettingsFormOptions.php:138
+#, php-format
+msgid ""
+"Please check your e-mail. You will receive a message with a link to read the "
+"remaining article %s."
+msgstr ""
+
+#. Text sent in registration e-mail, message body.
+#: models/SettingsEmailOptions.php:140
+msgid "Please click or copy the link into your web browser:"
+msgstr ""
+
+#. Text sent in password reset e-mail, message body.
+#: models/SettingsEmailOptions.php:159
+msgid ""
+"Please note the link can only be used once and will expire after 24 hours."
+msgstr ""
+
+#: views/RegisterUserDataView.php:62
+msgid "Please select your username and password."
+msgstr ""
+
+#: views/AdminAdvancedView.php:121
+msgid "Preserve plugin data:"
+msgstr ""
+
+#. Admin panel headline
+#: views/AdminFormPreView.php:129
+msgid "Preview"
+msgstr ""
+
+#. Button label.
+#: views/WizardView.php:66
+msgid "Previous"
+msgstr ""
+
+#. Link text for compact widget. Translation should be short.
+#: src/CompactWidget.php:74
+msgid "Profile"
+msgstr ""
+
+#: views/AdminLinkingView.php:96
+msgid "Profile page:"
+msgstr ""
+
+#. Description of the plugin
+#: src/AdminPages.php:213
+msgid ""
+"Puts a combined read-more, log-in and registration form inside in posts and "
+"pages. Visitors must log in or register to read more. Remaining text will be "
+"protected and hidden for other visitors."
+msgstr ""
+
+#. Headline text.
+#: models/SettingsFormOptions.php:126
+msgid "Read more"
+msgstr ""
+
+#. Name of the plugin, should only be translated if done consistently.
+#. Name of the plugin
+#: src/AdminPages.php:197 src/AdminPages.php:237 src/AdminPages.php:333
+#: views/AdminPanelView.php:37
+msgid "Read More Login"
+msgstr ""
+
+#. Text sent in password reset e-mail, subject line.
+#: models/SettingsEmailOptions.php:150
+msgid "Recover username and reset password"
+msgstr ""
+
+#. Button label. This button which will refresh form after settings update.
+#: views/AdminFormPreView.php:146
+msgid "Refresh"
+msgstr ""
+
+#. Database reference number for registrations.
+#: src/AdminPages.php:346 src/AdminPages.php:395
+msgid "Reg.ID"
+msgstr ""
+
+#. Link text for compact widget. Translation should be short.
+#. Link label.
+#. Link label, start register as new user.
+#. Button label, start register as new user.
+#: src/CompactWidget.php:70 views/LoginView.php:72
+#: views/PasswordRecoveryView.php:65 views/ReadMoreLoginView.php:80
+#: views/ReadMoreLoginView.php:85 views/ReadMoreRegisterUsernameView.php:52
+#: views/ReadMoreRegistrationView.php:94 views/RegisterUserDataView.php:82
+#: views/RegistrationView.php:64
+msgid "Register"
+msgstr ""
+
+#: views/AdminLinkingView.php:82
+msgid "Register page:"
+msgstr ""
+
+#. Text sent in registration e-mail, subject line. %s: Post/page tittle.
+#: models/SettingsEmailOptions.php:132
+#, php-format
+msgid "Register to read %s"
+msgstr ""
+
+#. Headline for registration form.
+#: models/SettingsFormOptions.php:129 views/ReadMoreRegisterUsernameView.php:63
+msgid "Register to read more"
+msgstr ""
+
+#: src/AdminPages.php:444
+msgid "Registering started"
+msgstr ""
+
+#: views/AdminEmailView.php:109
+msgid "Registering via forms put inside articles"
+msgstr ""
+
+#: views/AdminEmailView.php:118
+msgid "Registering via the self-service registration page"
+msgstr ""
+
+#. Text sent in registration e-mail, subject line. %s: Name of site.
+#: models/SettingsEmailOptions.php:143
+#, php-format
+msgid "Registration at %s"
+msgstr ""
+
+#: controllers/LoginController.php:180
+msgid "Registration completed. You can now log in."
+msgstr ""
+
+#. Headline
+#: views/AdminFormPreView.php:137 views/AdminFormView.php:114
+msgid "Registration form"
+msgstr ""
+
+#: controllers/RegistrationController.php:302
+msgid "Registration link has been used and user created."
+msgstr ""
+
+#: src/AdminPages.php:338
+msgid ""
+"Registration links sent to confirm e-mail addresses gets expired after 48 "
+"hours."
+msgstr ""
+
+#: src/AdminPages.php:249
+msgid "Registration started counter"
+msgstr ""
+
+#: views/AdminAdvancedView.php:152
+msgid "Release candidates:"
+msgstr ""
+
+#. Animation effect for how text is loaded into a page.
+#: views/AdminStyleView.php:166
+msgid "Reload page"
+msgstr ""
+
+#. Login form, checkbox label.
+#: views/LoginView.php:63
+msgid "Remember me"
+msgstr ""
+
+#: src/AdminPages.php:456
+msgid "Request user data"
+msgstr ""
+
+#: views/AdminFormView.php:189
+msgid ""
+"Require new users to tick of a checkbox to accept the terms and condition."
+msgstr ""
+
+#: views/AdminEmailView.php:127
+msgid "Reset password"
+msgstr ""
+
+#. Animation effect for how text is loaded into a page.
+#: views/AdminStyleView.php:164
+msgid "Roll down"
+msgstr ""
+
+#. Button label
+#: views/AdminAccessView.php:49 views/AdminAdvancedView.php:76
+#: views/AdminEmailView.php:97 views/AdminFormView.php:92
+#: views/AdminLinkingView.php:72 views/AdminSecurityView.php:47
+#: views/AdminStyleView.php:84 views/PasswordChangeView.php:55
+#: views/PasswordRecoveryChangeView.php:56 views/ProfileView.php:64
+msgid "Save changes"
+msgstr ""
+
+#: views/AdminAccessView.php:59
+msgid "Search engine access:"
+msgstr ""
+
+#. Admin tab menu. Limited space, keep translation short.
+#: controllers/AdminSettingsTabController.php:53
+msgid "Security"
+msgstr ""
+
+#. Admin panel headline
+#: views/AdminSecurityView.php:42
+msgid "Security settings"
+msgstr ""
+
+#. %s: Username.
+#: controllers/PasswordRecoveryController.php:271
+#, php-format
+msgid "Select a new password for username %s."
+msgstr ""
+
+#. The protected text is the hidden part of article that users must log in to read.
+#: views/AdminStyleView.php:169
+msgid "Select animations for how the protected content will load."
+msgstr ""
+
+#: views/AdminStyleView.php:154
+msgid "Select animations for how to forms will rotate."
+msgstr ""
+
+#. Button label.
+#: views/PasswordRecoveryView.php:56
+msgid "Send e-mail"
+msgstr ""
+
+#: views/AdminEmailView.php:135
+msgid ""
+"Send e-mail to site admin or an other person when a new user has registered."
+msgstr ""
+
+#. E-mail send to address.
+#: views/AdminEmailView.php:208
+msgid "Send to:"
+msgstr ""
+
+#: src/AdminPages.php:250
+msgid "Sent e-mail counter"
+msgstr ""
+
+#: views/AdminStyleView.php:130
+msgid "Set border thickness in pixel. Use 0 to disable the border."
+msgstr ""
+
+#: views/AdminStyleView.php:97
+msgid ""
+"Set fading of text above the login form. Such fading will indicate to the "
+"reader that more text exists."
+msgstr ""
+
+#: views/AdminStyleView.php:110
+msgid "Set form and content loading animations."
+msgstr ""
+
+#: src/AdminPages.php:49 src/AdminPages.php:50
+msgid "Settings"
+msgstr ""
+
+#: src/AdminPages.php:154
+msgid "Show Configuration Wizard"
+msgstr ""
+
+#: views/AdminFormView.php:151
+msgid "Show forgotten password link:"
+msgstr ""
+
+#: views/AdminFormView.php:133
+msgid "Show login form:"
+msgstr ""
+
+#: views/AdminFormView.php:145
+msgid "Show register button as link:"
+msgstr ""
+
+#: src/AdminPages.php:334
+msgid "Show status for e-mails sent for user registrations and password reset."
+msgstr ""
+
+#: views/AdminFormView.php:187
+msgid "Show terms and conditions:"
+msgstr ""
+
+#: src/AdminPages.php:67 src/AdminPages.php:68
+msgid "Statistics"
+msgstr ""
+
+#: src/AdminPages.php:238
+msgid "Statistics for user registrations."
+msgstr ""
+
+#: src/AdminPages.php:58 src/AdminPages.php:59 src/AdminPages.php:348
+#: src/AdminPages.php:397
+msgid "Status"
+msgstr ""
+
+#. Admin tab menu. Limited space, keep translation short.
+#. Admin panel headline
+#: controllers/AdminSettingsTabController.php:45 views/AdminStyleView.php:69
+msgid "Style"
+msgstr ""
+
+#. E-mail message subject.
+#: views/AdminEmailView.php:154 views/AdminEmailView.php:176
+#: views/AdminEmailView.php:189 views/AdminEmailView.php:212
+msgid "Subject:"
+msgstr ""
+
+#: views/AdminAdvancedView.php:137
+msgid "Switch on extra debug info."
+msgstr ""
+
+#: views/AdminAdvancedView.php:130
+msgid "Switch on logging of debug info."
+msgstr ""
+
+#. "terms and condition" link label used by "Yes, I accept the %s"
+#: views/FrontPageView.php:82
+msgid "terms and condition"
+msgstr ""
+
+#: views/AdminLinkingView.php:110
+msgid "Terms and condition page:"
+msgstr ""
+
+#: views/AdminStyleView.php:96
+msgid "Text fading"
+msgstr ""
+
+#. Text sent in registration e-mail, message body. %1$s is name of article. %2$s is name of the site.
+#: models/SettingsEmailOptions.php:136
+#, php-format
+msgid "Thank you for your interest in %1$s at %2$s."
+msgstr ""
+
+#. %s: Link to an online color picker.
+#: views/WizardView.php:146
+#, php-format
+msgid ""
+"The colors must be manually entered using RGB color values in hex format. If "
+"you need a color picker, this one is recommended: %s"
+msgstr ""
+
+#: views/AdminStyleView.php:104
+msgid ""
+"The colors must be set using RGB color values in hex format. These start "
+"with the number sign # followed by 6 hex digits. Leave blank to use default "
+"colors."
+msgstr ""
+
+#: views/WizardView.php:120
+msgid "The Configuration Wizard will help you with the setup of this plugin."
+msgstr ""
+
+#: views/AdminEmailView.php:111 views/AdminEmailView.php:120
+msgid ""
+"The e-mail asks the visitor to confirm his e-mail address by clicking a link."
+msgstr ""
+
+#. %s: Shortcode
+#: views/AdminFormView.php:107
+#, php-format
+msgid ""
+"The login form will ask the visitors to log in or register as a new user to "
+"read the protected content. The login form is created by putting the "
+"shortcode %s in your post and pages."
+msgstr ""
+
+#. %s: shortcode
+#: views/WizardView.php:234
+#, php-format
+msgid ""
+"The login forms are created by writing the shortcode %s in posts and pages."
+msgstr ""
+
+#: views/WizardView.php:122 views/WizardView.php:173
+msgid ""
+"The messages can contain HTML elements and variables. The variables will "
+"transform into user and site related texts. At the bottom of this page you "
+"will find a list of defined variables that can be used."
+msgstr ""
+
+#: views/WizardView.php:202
+msgid ""
+"The pages must contain shortcodes that will display the forms. You must "
+"write the shortcodes as given below into these pages. The shortcode must be "
+"surrounded by brackets."
+msgstr ""
+
+#: views/AdminStyleView.php:123
+msgid ""
+"The plugin is not able to detect your theme's background color. Please enter "
+"background color using RGB color values in hex format."
+msgstr ""
+
+#: views/AdminFormView.php:115
+msgid ""
+"The registration form will be displayed after visitors press the register "
+"button. The form asks for additional information required to register. After "
+"pressing the register button in this form, an e-mail will be sent asking "
+"user to confirm his e-mail address."
+msgstr ""
+
+#: views/WizardView.php:171
+msgid ""
+"These e-mails are sent when somebody registers or has requested a password "
+"reset."
+msgstr ""
+
+#: src/AdminPages.php:239
+msgid "These numbers applies only for the registration forms inside articles."
+msgstr ""
+
+#: views/AdminEmailView.php:150 views/AdminEmailView.php:172
+#: views/AdminEmailView.php:185 views/AdminEmailView.php:204
+msgid ""
+"This e-mail address will appear as the sender, which the receiver can reply "
+"to if needed. Optional field, leave blank to use WordPress default."
+msgstr ""
+
+#: views/AdminEmailView.php:128
+msgid ""
+"This e-mail will be sent to user requesting a password reset link. This e-"
+"mail should also inform what the username is."
+msgstr ""
+
+#: views/AdminEmailView.php:110
+msgid ""
+"This e-mail will be sent to visitors registering via the forms put inside "
+"articles."
+msgstr ""
+
+#: views/AdminEmailView.php:119
+msgid ""
+"This e-mail will be sent to visitors registering via the user handling page."
+msgstr ""
+
+#: src/AdminPages.php:224
+msgid ""
+"This example shows correct usage of the shortcode between two paragraphs:"
+msgstr ""
+
+#: controllers/ReadMoreLoginController.php:500
+msgid ""
+"This link has been used and registration is completed. You can now log in."
+msgstr ""
+
+#: views/AdminEmailView.php:112
+msgid ""
+"This link will send the new user right back to the article and let him read "
+"the remaining protected content."
+msgstr ""
+
+#: views/AdminEmailView.php:121
+msgid ""
+"This link will send the new user right back to the same user handling page "
+"to complete the registration."
+msgstr ""
+
+#: controllers/PasswordRecoveryController.php:237
+#: controllers/PasswordRecoveryController.php:290
+#: controllers/PasswordRecoveryController.php:298
+msgid ""
+"This password reset link has been used. The link can only be used once. You "
+"can now log in or you need to request a new password reset link."
+msgstr ""
+
+#: controllers/PasswordRecoveryController.php:241
+msgid ""
+"This password reset link has expired. You must request a new e-mail with a "
+"new reset link."
+msgstr ""
+
+#: views/AdminAccessView.php:63
+msgid ""
+"This will also allow search engines to read and index your entire page and "
+"could improve your ratings on searches."
+msgstr ""
+
+#: views/AdminAdvancedView.php:132
+msgid "This will switch on error and warning messages."
+msgstr ""
+
+#: src/AdminPages.php:347 src/AdminPages.php:396
+msgid "Time-stamp"
+msgstr ""
+
+#. Text sent in registration e-mail, message body.
+#: models/SettingsEmailOptions.php:138
+msgid "To read the remaining article follow this link."
+msgstr ""
+
+#. This is sum of adding calculation.
+#: src/AdminPages.php:313
+msgid "Totals"
+msgstr ""
+
+#: controllers/MembershipController.php:1415
+msgid "Undefined error."
+msgstr ""
+
+#: controllers/MembershipController.php:669
+msgid "Undefined error. Illegal characters in name."
+msgstr ""
+
+#: views/AdminAdvancedView.php:88
+msgid "Uninstall options"
+msgstr ""
+
+#. Link label.
+#: views/LogoutView.php:65
+msgid "Update your profile"
+msgstr ""
+
+#. Text sent in password reset e-mail, message body.
+#: models/SettingsEmailOptions.php:156
+msgid "Use this link to reset your password:"
+msgstr ""
+
+#. %s: E-mail address.
+#: controllers/LoginController.php:189
+#: controllers/ReadMoreLoginController.php:673
+#, php-format
+msgid "User account with e-mail %s already exists. You can now log in."
+msgstr ""
+
+#. %s: E-mail address.
+#: controllers/RegistrationController.php:337
+#, php-format
+msgid "User account with e-mail %s are already registered. You can now log in."
+msgstr ""
+
+#: controllers/LoginController.php:184
+msgid "User already created. You can now log in."
+msgstr ""
+
+#: src/AdminPages.php:337
+msgid "User registration status"
+msgstr ""
+
+#: src/AdminPages.php:349 src/AdminPages.php:398 views/ProfileView.php:58
+msgid "Username"
+msgstr ""
+
+#. %s: Username.
+#: controllers/ReadMoreLoginController.php:653
+#, php-format
+msgid "Username %s already taken. Please select another username."
+msgstr ""
+
+#: controllers/ReadMoreLoginController.php:532
+msgid "Username accepted. Loading text..."
+msgstr ""
+
+#: controllers/RegistrationController.php:172
+msgid "Username already taken. Please select another username."
+msgstr ""
+
+#: controllers/RegistrationController.php:166
+msgid ""
+"Username has already been registered. Log in or register using another e-"
+"mail."
+msgstr ""
+
+#: views/LoginView.php:60 views/ReadMoreLoginView.php:67
+#: views/ReadMoreRegisterUsernameView.php:49 views/RegisterUserDataView.php:65
+msgid "Username:"
+msgstr ""
+
+#. Text sent in admin notification e-mail, message body. %s: Username.
+#. %s: username.
+#: models/SettingsEmailOptions.php:166 views/LogoutView.php:53
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: views/ProfileView.php:75
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: views/AdminPanelView.php:106
+msgid "Variable will put in the link to the site."
+msgstr ""
+
+#: views/AdminPanelView.php:101
+msgid "Variable will put in the name of the site."
+msgstr ""
+
+#: views/AdminPanelView.php:96
+msgid "Variable will put in the tittle of page the user are registering on."
+msgstr ""
+
+#: views/AdminPanelView.php:91
+msgid "Variable will put in the user's e-mail address."
+msgstr ""
+
+#: views/AdminPanelView.php:71
+msgid ""
+"Variable will put in the user's username. This variable is not available "
+"before the username has been given during the registration."
+msgstr ""
+
+#: views/AdminPanelView.php:76
+msgid ""
+"Variable will put in user's first name. If not given it will write blank."
+msgstr ""
+
+#: views/AdminPanelView.php:81
+msgid ""
+"Variable will put in user's last name. If not given it will write blank."
+msgstr ""
+
+#. Animation effect for how new forms are loaded into a page.
+#: views/AdminStyleView.php:152
+msgid "Vertical roll up and down"
+msgstr ""
+
+#: views/AdminAccessView.php:61
+msgid ""
+"Visitors from search engines like Google can read protected content without "
+"login."
+msgstr ""
+
+#: src/AdminPages.php:219
+msgid "Warning!"
+msgstr ""
+
+#. %s: </table>
+#: src/AdminPages.php:223
+#, php-format
+msgid ""
+"When login form shows, the shortcode will cut of the remaining text "
+"including html tags for that post/page. You may miss html end tags (tags "
+"marked with slash like %s). Missing end tags may mess up your page. To be "
+"safe is recommended to put in the shortcode between two completed paragraphs."
+msgstr ""
+
+#: controllers/ReadMoreLoginController.php:150
+#: controllers/ReadMoreLoginController.php:230
+#: controllers/ReadMoreLoginController.php:539
+msgid "Wrong username or password."
+msgstr ""
+
+#: views/AdminEmailView.php:198 views/AdminFormView.php:135
+#: views/AdminFormView.php:141 views/AdminFormView.php:147
+#: views/AdminFormView.php:153 views/AdminStyleView.php:114
+msgid "Yes"
+msgstr ""
+
+#. %s: link label saying terms and condition.
+#: views/FrontPageView.php:85
+#, php-format
+msgid "Yes, I accept the %s."
+msgstr ""
+
+#: views/LogoutView.php:45
+msgid "You are now logged in."
+msgstr ""
+
+#. %s: E-mail address.
+#: controllers/RegistrationController.php:322
+#: controllers/RegistrationController.php:377
+#, php-format
+msgid "You are registering using e-mail address %s"
+msgstr ""
+
+#: controllers/MembershipController.php:572
+msgid "You can not use e-mail as username. Please select another username."
+msgstr ""
+
+#: views/AdminFormPreView.php:151
+msgid ""
+"You can test the forms by pressing the buttons in the the preview. The "
+"preview will not send e-mail notifications."
+msgstr ""
+
+#. Text sent in password reset e-mail, message body. %s: Name of site.
+#: models/SettingsEmailOptions.php:152
+#, php-format
+msgid ""
+"You have requested to recover your username or reset your password at %s."
+msgstr ""
+
+#: controllers/MembershipController.php:555
+msgid "You must accept the terms and conditions to register."
+msgstr ""
+
+#: controllers/MembershipController.php:467
+msgid "You must enter a new password."
+msgstr ""
+
+#: controllers/MembershipController.php:473
+#: controllers/MembershipController.php:478
+msgid "You must enter same password in both inputs."
+msgstr ""
+
+#: controllers/MembershipController.php:540
+msgid "You must enter your e-mail address to register."
+msgstr ""
+
+#: controllers/MembershipController.php:496
+msgid "You must enter your e-mail address."
+msgstr ""
+
+#: controllers/MembershipController.php:396
+msgid "You must enter your password to log in."
+msgstr ""
+
+#: controllers/MembershipController.php:411
+msgid "You must enter your username and password to log in."
+msgstr ""
+
+#: controllers/MembershipController.php:417
+msgid "You must enter your username to log in."
+msgstr ""
+
+#: src/Membership.php:62
+msgid "You must log in to access your user profile."
+msgstr ""
+
+#: models/SettingsFormOptions.php:127
+msgid ""
+"You must log in to read the rest of this article. Please log in or register "
+"as a user."
+msgstr ""
+
+#: controllers/MembershipController.php:591
+#: controllers/MembershipController.php:617
+msgid "You must select a password to register."
+msgstr ""
+
+#: controllers/MembershipController.php:612
+msgid "You must select a username to register."
+msgstr ""
+
+#: controllers/MembershipController.php:606
+msgid "You must select username and password to register."
+msgstr ""
+
+#: controllers/ProfileController.php:71
+msgid "Your profile has been updated."
+msgstr ""
+
+#: controllers/AdminSettingsPreviewFormController.php:40
+msgid "Your settings have been saved."
+msgstr ""
+
+#. Text sent in password reset e-mail, message body. %s: Username.
+#: models/SettingsEmailOptions.php:154
+#, php-format
+msgid "Your username is %s"
+msgstr ""
